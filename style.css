@@ -1,0 +1,77 @@
+
+@import "jquery-svg/jquery.svg.css";
+
+body {
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Chivo', sans-serif;
+	font-weight: bolder;
+	background-color: #0F070C;
+	/*background-color: #EDE4D5;*/
+	color: white;
+	font-size: 36pt;
+}
+
+.network {
+	position: absolute;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	color: black;
+	font-size: 72pt;
+}
+
+
+.network.None {
+	background-color: #3EEDDA;
+}
+.network.WPA {
+	background-color: #EDBE3E;
+}
+.network.WPA2 {
+	background-color: #ED3EA1;
+}
+.network.WEP {
+	background-color: #A300CC;
+}
+
+.network_circle {
+	stroke: #555;
+	stroke-width: .5;
+	fill: none;
+	stroke-dasharray: 5,5;
+}
+
+/*
+.network.None {
+	color: #2E7D27;
+}
+.network.WPA {
+	color: #EDBE3E;
+}
+.network.WPA2 {
+	color: #4C5F8A;
+}
+.network.WEP {
+	color: #FAB216;
+}
+*/
+SVG {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	height: 1000%;
+}
+.route  {
+	stroke: #fff;
+	stroke-width: 2;
+	fill: none;
+	z-index: 1;
+	/*stroke-dasharray: 2,4;
+	stroke-linecap: round;
+	stroke-linejoin: round;*/
+
+}
+
+.route.dashed {
+	stroke-dasharray: 5,5;
+}
