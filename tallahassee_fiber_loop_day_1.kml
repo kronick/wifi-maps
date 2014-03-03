@@ -1,0 +1,2050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<wfff kmlVersion="2.0.1"/>
+<Document>
+<Placemark>
+<name><![CDATA[AirPort Express with AirTunes]]></name>
+<description><![CDATA[MAC: 0:11:24:61:f0:af<br>Channel: 1<br>MaxRssi: -89<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:45:41 +0000<br>LastSeen: 2014-02-28 16:47:45 +0000]]></description>
+<Point>
+<coordinates>-84.322629,30.423441,36.595467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CCYSMain]]></name>
+<description><![CDATA[MAC: 0:12:17:db:b5:2a<br>Channel: 2<br>MaxRssi: -79<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:38:46 +0000<br>LastSeen: 2014-02-28 15:42:46 +0000]]></description>
+<Point>
+<coordinates>-84.325964,30.429376,25.046745</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DEA Surveillance]]></name>
+<description><![CDATA[MAC: 0:14:51:75:25:73<br>Channel: 11<br>MaxRssi: -96<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:11:14 +0000<br>LastSeen: 2014-02-28 15:11:35 +0000]]></description>
+<Point>
+<coordinates>-84.328186,30.432229,16.047226</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Biscuit]]></name>
+<description><![CDATA[MAC: 0:14:6c:7c:67:f0<br>Channel: 9<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:04 +0000<br>LastSeen: 2014-02-28 15:08:19 +0000]]></description>
+<Point>
+<coordinates>-84.328212,30.434375,18.114008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Service-Loving]]></name>
+<description><![CDATA[MAC: 0:15:ff:47:38:ee<br>Channel: 2<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:04:17 +0000<br>LastSeen: 2014-02-28 15:04:18 +0000]]></description>
+<Point>
+<coordinates>-84.328261,30.435689,24.448551</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Verizon-MiFi5510L-B129]]></name>
+<description><![CDATA[MAC: 0:15:ff:59:b1:29<br>Channel: 11<br>MaxRssi: -84<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:52:35 +0000<br>LastSeen: 2014-02-28 16:58:51 +0000]]></description>
+<Point>
+<coordinates>-84.320513,30.421500,30.235344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rosenet]]></name>
+<description><![CDATA[MAC: 0:16:1:d1:b5:5f<br>Channel: 1<br>MaxRssi: -98<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:05:55 +0000<br>LastSeen: 2014-02-28 15:07:47 +0000]]></description>
+<Point>
+<coordinates>-84.328231,30.434697,22.819876</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:17:df:10:3b:0<br>Channel: 11<br>MaxRssi: -96<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:03:14 +0000<br>LastSeen: 2014-02-28 15:05:23 +0000]]></description>
+<Point>
+<coordinates>-84.328298,30.435872,22.172947</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[linksys]]></name>
+<description><![CDATA[MAC: 0:18:39:54:40:e<br>Channel: 6<br>MaxRssi: -95<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:27:46 +0000<br>LastSeen: 2014-02-28 15:29:07 +0000]]></description>
+<Point>
+<coordinates>-84.329006,30.429070,28.190983</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-Conf-B]]></name>
+<description><![CDATA[MAC: 0:19:77:1e:ae:90<br>Channel: 1<br>MaxRssi: -81<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:00:17 +0000<br>LastSeen: 2014-02-28 16:11:58 +0000]]></description>
+<Point>
+<coordinates>-84.321492,30.427401,13.579087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-Conf-G]]></name>
+<description><![CDATA[MAC: 0:19:77:1e:ae:91<br>Channel: 1<br>MaxRssi: -82<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:08:35 +0000<br>LastSeen: 2014-02-28 16:11:51 +0000]]></description>
+<Point>
+<coordinates>-84.321167,30.427479,16.154505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-Conf-B]]></name>
+<description><![CDATA[MAC: 0:19:77:1e:af:50<br>Channel: 11<br>MaxRssi: -82<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:50:46 +0000<br>LastSeen: 2014-02-28 16:00:16 +0000]]></description>
+<Point>
+<coordinates>-84.322214,30.428738,31.097443</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-Conf-G]]></name>
+<description><![CDATA[MAC: 0:19:77:1e:af:51<br>Channel: 11<br>MaxRssi: -81<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:51:57 +0000<br>LastSeen: 2014-02-28 16:00:19 +0000]]></description>
+<Point>
+<coordinates>-84.322213,30.428759,35.289730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-Conf-B]]></name>
+<description><![CDATA[MAC: 0:19:77:1e:b1:10<br>Channel: 6<br>MaxRssi: -87<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:01:34 +0000<br>LastSeen: 2014-02-28 16:29:27 +0000]]></description>
+<Point>
+<coordinates>-84.322086,30.427056,19.904602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-G]]></name>
+<description><![CDATA[MAC: 0:19:77:c:c3:13<br>Channel: 11<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:08:27 +0000<br>LastSeen: 2014-02-28 16:12:18 +0000]]></description>
+<Point>
+<coordinates>-84.322099,30.427060,15.388438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-N]]></name>
+<description><![CDATA[MAC: 0:19:77:c:c3:14<br>Channel: 11<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:08:01 +0000<br>LastSeen: 2014-02-28 16:20:43 +0000]]></description>
+<Point>
+<coordinates>-84.321326,30.427456,19.687538</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-G]]></name>
+<description><![CDATA[MAC: 0:19:77:c:c7:93<br>Channel: 6<br>MaxRssi: -81<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:47:47 +0000<br>LastSeen: 2014-02-28 15:59:12 +0000]]></description>
+<Point>
+<coordinates>-84.322769,30.428417,19.270390</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-N]]></name>
+<description><![CDATA[MAC: 0:19:77:c:c7:94<br>Channel: 6<br>MaxRssi: -80<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:47:46 +0000<br>LastSeen: 2014-02-28 15:59:10 +0000]]></description>
+<Point>
+<coordinates>-84.322769,30.428417,19.311386</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-G]]></name>
+<description><![CDATA[MAC: 0:19:77:c:cf:d0<br>Channel: 11<br>MaxRssi: -80<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:50:49 +0000<br>LastSeen: 2014-02-28 16:10:34 +0000]]></description>
+<Point>
+<coordinates>-84.322230,30.428833,31.723585</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-N]]></name>
+<description><![CDATA[MAC: 0:19:77:c:cf:d1<br>Channel: 11<br>MaxRssi: -79<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:50:53 +0000<br>LastSeen: 2014-02-28 16:10:33 +0000]]></description>
+<Point>
+<coordinates>-84.321774,30.428067,32.359562</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-G]]></name>
+<description><![CDATA[MAC: 0:19:77:c:d0:13<br>Channel: 1<br>MaxRssi: -84<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:11:24 +0000<br>LastSeen: 2014-02-28 16:29:29 +0000]]></description>
+<Point>
+<coordinates>-84.322086,30.427056,19.904602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-N]]></name>
+<description><![CDATA[MAC: 0:19:77:c:d0:14<br>Channel: 1<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:11:24 +0000<br>LastSeen: 2014-02-28 16:29:29 +0000]]></description>
+<Point>
+<coordinates>-84.322086,30.427056,19.904602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-G]]></name>
+<description><![CDATA[MAC: 0:19:77:c:d1:50<br>Channel: 1<br>MaxRssi: -78<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:50:31 +0000<br>LastSeen: 2014-02-28 16:11:20 +0000]]></description>
+<Point>
+<coordinates>-84.321822,30.427277,24.476456</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-N]]></name>
+<description><![CDATA[MAC: 0:19:77:c:d1:51<br>Channel: 1<br>MaxRssi: -78<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:50:31 +0000<br>LastSeen: 2014-02-28 16:11:31 +0000]]></description>
+<Point>
+<coordinates>-84.321492,30.427401,14.322942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-G]]></name>
+<description><![CDATA[MAC: 0:19:77:c:d1:d3<br>Channel: 11<br>MaxRssi: -91<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:53:44 +0000<br>LastSeen: 2014-02-28 15:55:32 +0000]]></description>
+<Point>
+<coordinates>-84.322854,30.428421,28.359293</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FLVC-INSIDE-N]]></name>
+<description><![CDATA[MAC: 0:19:77:c:d1:d4<br>Channel: 11<br>MaxRssi: -91<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:53:44 +0000<br>LastSeen: 2014-02-28 15:55:34 +0000]]></description>
+<Point>
+<coordinates>-84.322854,30.428421,28.359293</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:1a:1e:58:39:20<br>Channel: 11<br>MaxRssi: -86<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:53:04 +0000<br>LastSeen: 2014-02-28 16:53:04 +0000]]></description>
+<Point>
+<coordinates>-84.320376,30.422378,23.861010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:1a:1e:58:39:21<br>Channel: 11<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:53:02 +0000<br>LastSeen: 2014-02-28 16:53:04 +0000]]></description>
+<Point>
+<coordinates>-84.320376,30.422378,23.861010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:1a:1e:58:3a:e0<br>Channel: 11<br>MaxRssi: -88<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:47:59 +0000<br>LastSeen: 2014-02-28 16:48:19 +0000]]></description>
+<Point>
+<coordinates>-84.322069,30.423339,25.024979</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:1a:1e:58:3a:e1<br>Channel: 11<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:47:58 +0000<br>LastSeen: 2014-02-28 16:48:19 +0000]]></description>
+<Point>
+<coordinates>-84.322069,30.423339,25.024979</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:1a:1e:58:3b:0<br>Channel: 1<br>MaxRssi: -83<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:53:28 +0000<br>LastSeen: 2014-02-28 16:59:48 +0000]]></description>
+<Point>
+<coordinates>-84.320515,30.421492,27.612440</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:1a:1e:58:3b:1<br>Channel: 1<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:53:28 +0000<br>LastSeen: 2014-02-28 16:59:48 +0000]]></description>
+<Point>
+<coordinates>-84.320515,30.421492,27.612440</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:1a:1e:58:3b:e0<br>Channel: 11<br>MaxRssi: -75<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:48:12 +0000<br>LastSeen: 2014-02-28 16:52:35 +0000]]></description>
+<Point>
+<coordinates>-84.320665,30.423024,40.834190</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:1a:1e:58:3b:e1<br>Channel: 11<br>MaxRssi: -75<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:48:10 +0000<br>LastSeen: 2014-02-28 16:52:35 +0000]]></description>
+<Point>
+<coordinates>-84.320600,30.423151,55.983849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:1a:1e:5a:a8:20<br>Channel: 11<br>MaxRssi: -91<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:50:47 +0000<br>LastSeen: 2014-02-28 16:50:47 +0000]]></description>
+<Point>
+<coordinates>-84.320604,30.423191,47.107819</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:1a:1e:5a:ab:c0<br>Channel: 6<br>MaxRssi: -76<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:48:40 +0000<br>LastSeen: 2014-02-28 16:53:21 +0000]]></description>
+<Point>
+<coordinates>-84.320344,30.422567,41.944675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:1a:1e:5a:ab:c1<br>Channel: 6<br>MaxRssi: -76<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:49:03 +0000<br>LastSeen: 2014-02-28 16:53:21 +0000]]></description>
+<Point>
+<coordinates>-84.320344,30.422567,41.944675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[fuckface]]></name>
+<description><![CDATA[MAC: 0:1b:2f:50:d:4a<br>Channel: 11<br>MaxRssi: -96<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:19 +0000<br>LastSeen: 2014-02-28 15:08:19 +0000]]></description>
+<Point>
+<coordinates>-84.328208,30.434362,18.950256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dd-wrt-ee]]></name>
+<description><![CDATA[MAC: 0:1c:10:21:f5:fd<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:01:17 +0000<br>LastSeen: 2014-02-28 15:01:17 +0000]]></description>
+<Point>
+<coordinates>-84.328346,30.436397,29.386322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[liyudgfj]]></name>
+<description><![CDATA[MAC: 0:1c:f0:55:46:93<br>Channel: 11<br>MaxRssi: -82<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:02:14 +0000<br>LastSeen: 2014-02-28 17:32:48 +0000]]></description>
+<Point>
+<coordinates>-84.317331,30.420000,28.564613</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:1d:60:95:5c:4d<br>Channel: 1<br>MaxRssi: -95<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:53:59 +0000<br>LastSeen: 2014-02-28 17:01:23 +0000]]></description>
+<Point>
+<coordinates>-84.320524,30.421790,27.739656</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-5232]]></name>
+<description><![CDATA[MAC: 0:1d:d1:2b:52:30<br>Channel: 10<br>MaxRssi: -91<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:38:56 +0000<br>LastSeen: 2014-02-28 15:43:12 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,25.681637</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Comcast1]]></name>
+<description><![CDATA[MAC: 0:1d:d3:a3:53:10<br>Channel: 1<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:22:06 +0000<br>LastSeen: 2014-02-28 15:33:50 +0000]]></description>
+<Point>
+<coordinates>-84.328958,30.429072,23.343134</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-5A12]]></name>
+<description><![CDATA[MAC: 0:1d:d6:a:5a:10<br>Channel: 11<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:22:56 +0000<br>LastSeen: 2014-02-28 15:24:13 +0000]]></description>
+<Point>
+<coordinates>-84.329090,30.429299,16.905285</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-AE32]]></name>
+<description><![CDATA[MAC: 0:1d:d6:b7:ae:30<br>Channel: 10<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:06:21 +0000<br>LastSeen: 2014-02-28 15:10:51 +0000]]></description>
+<Point>
+<coordinates>-84.328188,30.434262,16.863777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CePaST]]></name>
+<description><![CDATA[MAC: 0:1e:52:7b:2f:7e<br>Channel: 11<br>MaxRssi: -81<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:43:01 +0000<br>LastSeen: 2014-02-28 16:46:10 +0000]]></description>
+<Point>
+<coordinates>-84.324226,30.423430,29.245667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[oh_hey_there]]></name>
+<description><![CDATA[MAC: 0:1f:33:3b:1:64<br>Channel: 1<br>MaxRssi: -91<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:06:01 +0000<br>LastSeen: 2014-02-28 15:10:21 +0000]]></description>
+<Point>
+<coordinates>-84.328204,30.434300,19.381306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CITYNET]]></name>
+<description><![CDATA[MAC: 0:1f:45:81:77:f8<br>Channel: 11<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:33 +0000<br>LastSeen: 2014-02-28 15:02:00 +0000]]></description>
+<Point>
+<coordinates>-84.328335,30.436401,27.560856</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CITYGUEST]]></name>
+<description><![CDATA[MAC: 0:1f:45:81:77:f9<br>Channel: 11<br>MaxRssi: -83<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:33 +0000<br>LastSeen: 2014-02-28 15:02:00 +0000]]></description>
+<Point>
+<coordinates>-84.328333,30.436404,30.319849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CITYNET]]></name>
+<description><![CDATA[MAC: 0:1f:45:81:80:28<br>Channel: 1<br>MaxRssi: -80<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:39 +0000<br>LastSeen: 2014-02-28 15:02:56 +0000]]></description>
+<Point>
+<coordinates>-84.328383,30.436464,30.277977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CITYGUEST]]></name>
+<description><![CDATA[MAC: 0:1f:45:81:80:29<br>Channel: 1<br>MaxRssi: -81<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:38 +0000<br>LastSeen: 2014-02-28 15:02:56 +0000]]></description>
+<Point>
+<coordinates>-84.328383,30.436464,30.277977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CITYNET]]></name>
+<description><![CDATA[MAC: 0:1f:45:f7:ab:18<br>Channel: 6<br>MaxRssi: -85<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:03:22 +0000<br>LastSeen: 2014-02-28 15:05:19 +0000]]></description>
+<Point>
+<coordinates>-84.328247,30.435598,30.723547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CITYGUEST]]></name>
+<description><![CDATA[MAC: 0:1f:45:f7:ab:19<br>Channel: 6<br>MaxRssi: -85<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:02:38 +0000<br>LastSeen: 2014-02-28 15:05:51 +0000]]></description>
+<Point>
+<coordinates>-84.328247,30.435598,30.723547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[RESEARCHTM]]></name>
+<description><![CDATA[MAC: 0:1f:f3:c3:9d:1f<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:57:11 +0000<br>LastSeen: 2014-02-28 17:01:19 +0000]]></description>
+<Point>
+<coordinates>-84.319334,30.420130,27.651781</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CCYS1]]></name>
+<description><![CDATA[MAC: 0:2:6f:aa:af:59<br>Channel: 1<br>MaxRssi: -85<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:37:24 +0000<br>LastSeen: 2014-02-28 15:41:27 +0000]]></description>
+<Point>
+<coordinates>-84.325946,30.429370,16.308382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-c4-LaserJet M275nw]]></name>
+<description><![CDATA[MAC: 0:21:29:8d:cd:26<br>Channel: 1<br>MaxRssi: -71<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:03:55 +0000<br>LastSeen: 2014-02-28 17:33:51 +0000]]></description>
+<Point>
+<coordinates>-84.317369,30.419868,47.908783</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[3flowers]]></name>
+<description><![CDATA[MAC: 0:22:3f:68:5b:14<br>Channel: 6<br>MaxRssi: -88<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:04 +0000<br>LastSeen: 2014-02-28 15:10:26 +0000]]></description>
+<Point>
+<coordinates>-84.328126,30.432987,14.897350</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Greatest]]></name>
+<description><![CDATA[MAC: 0:22:75:ee:a2:15<br>Channel: 1<br>MaxRssi: -98<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:05 +0000<br>LastSeen: 2014-02-28 15:10:23 +0000]]></description>
+<Point>
+<coordinates>-84.328133,30.433194,16.428684</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dlink]]></name>
+<description><![CDATA[MAC: 0:22:b0:b6:71:f3<br>Channel: 6<br>MaxRssi: -79<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:13:25 +0000<br>LastSeen: 2014-02-28 15:34:04 +0000]]></description>
+<Point>
+<coordinates>-84.328917,30.429113,14.273970</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CCLA_Modelsite]]></name>
+<description><![CDATA[MAC: 0:22:c:27:6c:e0<br>Channel: 4<br>MaxRssi: -83<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:50:38 +0000<br>LastSeen: 2014-02-28 16:11:15 +0000]]></description>
+<Point>
+<coordinates>-84.322143,30.428456,22.148413</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[2WIRE764]]></name>
+<description><![CDATA[MAC: 0:24:56:a9:19:51<br>Channel: 8<br>MaxRssi: -74<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:35 +0000<br>LastSeen: 2014-02-28 15:08:58 +0000]]></description>
+<Point>
+<coordinates>-84.328308,30.435967,23.460081</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:24:6c:b8:5f:60<br>Channel: 6<br>MaxRssi: -91<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:58:35 +0000<br>LastSeen: 2014-02-28 16:59:15 +0000]]></description>
+<Point>
+<coordinates>-84.320206,30.420775,22.198004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:24:6c:b8:5f:61<br>Channel: 6<br>MaxRssi: -91<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:58:41 +0000<br>LastSeen: 2014-02-28 16:59:21 +0000]]></description>
+<Point>
+<coordinates>-84.320206,30.420775,22.198004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:24:6c:da:7d:81<br>Channel: 11<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:20:31 +0000<br>LastSeen: 2014-02-28 17:20:31 +0000]]></description>
+<Point>
+<coordinates>-84.317612,30.419636,49.103985</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:24:6c:da:91:e0<br>Channel: 11<br>MaxRssi: -87<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:00:37 +0000<br>LastSeen: 2014-02-28 17:01:16 +0000]]></description>
+<Point>
+<coordinates>-84.319258,30.420077,29.287041</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:24:6c:da:91:e1<br>Channel: 11<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:00:59 +0000<br>LastSeen: 2014-02-28 17:00:59 +0000]]></description>
+<Point>
+<coordinates>-84.319312,30.420111,25.420746</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 0:24:6c:da:92:60<br>Channel: 1<br>MaxRssi: -85<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:01:55 +0000<br>LastSeen: 2014-02-28 17:20:06 +0000]]></description>
+<Point>
+<coordinates>-84.318348,30.419709,23.980959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 0:24:6c:da:92:61<br>Channel: 1<br>MaxRssi: -85<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:01:55 +0000<br>LastSeen: 2014-02-28 17:20:06 +0000]]></description>
+<Point>
+<coordinates>-84.318348,30.419709,23.980959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LCRDA]]></name>
+<description><![CDATA[MAC: 0:24:b2:13:9:a6<br>Channel: 1<br>MaxRssi: -79<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:13:44 +0000<br>LastSeen: 2014-02-28 16:33:12 +0000]]></description>
+<Point>
+<coordinates>-84.323941,30.426165,19.987732</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CXR]]></name>
+<description><![CDATA[MAC: 0:25:2e:2:fa:8f<br>Channel: 1<br>MaxRssi: -90<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:43 +0000<br>LastSeen: 2014-02-28 15:05:23 +0000]]></description>
+<Point>
+<coordinates>-84.328261,30.435367,26.537392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SIYA]]></name>
+<description><![CDATA[MAC: 0:25:9c:23:7c:d<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:49 +0000<br>LastSeen: 2014-02-28 15:12:33 +0000]]></description>
+<Point>
+<coordinates>-84.328234,30.434665,20.960796</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NHMFL]]></name>
+<description><![CDATA[MAC: 0:25:9c:79:7e:29<br>Channel: 1<br>MaxRssi: -88<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:48:25 +0000<br>LastSeen: 2014-02-28 16:53:11 +0000]]></description>
+<Point>
+<coordinates>-84.321959,30.423305,27.282722</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NHMFL]]></name>
+<description><![CDATA[MAC: 0:25:9c:7b:66:6<br>Channel: 1<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:13:54 +0000<br>LastSeen: 2014-02-28 16:20:53 +0000]]></description>
+<Point>
+<coordinates>-84.323704,30.426581,13.520046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Heaven]]></name>
+<description><![CDATA[MAC: 0:26:f2:87:3c:ee<br>Channel: 1<br>MaxRssi: -86<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:14 +0000<br>LastSeen: 2014-02-28 15:10:57 +0000]]></description>
+<Point>
+<coordinates>-84.328154,30.433333,26.029785</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-B348]]></name>
+<description><![CDATA[MAC: 0:26:f3:50:b3:48<br>Channel: 1<br>MaxRssi: -88<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:50 +0000<br>LastSeen: 2014-02-28 15:43:00 +0000]]></description>
+<Point>
+<coordinates>-84.325416,30.429277,21.562725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:26:f3:50:b3:49<br>Channel: 1<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:50 +0000<br>LastSeen: 2014-02-28 15:43:00 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,24.241838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:26:f3:50:b3:4b<br>Channel: 1<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:39:04 +0000<br>LastSeen: 2014-02-28 15:42:58 +0000]]></description>
+<Point>
+<coordinates>-84.325416,30.429277,21.562725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-7658]]></name>
+<description><![CDATA[MAC: 0:26:f3:5a:76:58<br>Channel: 1<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:56 +0000<br>LastSeen: 2014-02-28 15:42:57 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,25.493837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:26:f3:5a:76:59<br>Channel: 1<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:48 +0000<br>LastSeen: 2014-02-28 15:42:57 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,28.305725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:26:f3:5a:76:5a<br>Channel: 1<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:48 +0000<br>LastSeen: 2014-02-28 15:42:57 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,25.493837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:26:f3:5a:76:5b<br>Channel: 1<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:48 +0000<br>LastSeen: 2014-02-28 15:42:57 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,24.772064</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[in4net]]></name>
+<description><![CDATA[MAC: 0:3:52:60:6e:b0<br>Channel: 1<br>MaxRssi: -81<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:57:04 +0000<br>LastSeen: 2014-02-28 17:34:03 +0000]]></description>
+<Point>
+<coordinates>-84.320409,30.420960,28.405363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[in4net]]></name>
+<description><![CDATA[MAC: 0:3:52:60:70:a0<br>Channel: 7<br>MaxRssi: -83<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:54:58 +0000<br>LastSeen: 2014-02-28 17:02:11 +0000]]></description>
+<Point>
+<coordinates>-84.320200,30.420770,20.313898</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[in4net]]></name>
+<description><![CDATA[MAC: 0:3:52:ea:1:70<br>Channel: 9<br>MaxRssi: -88<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:00:57 +0000<br>LastSeen: 2014-02-28 17:20:14 +0000]]></description>
+<Point>
+<coordinates>-84.319009,30.419973,27.031092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[AP-FDACS]]></name>
+<description><![CDATA[MAC: 0:3a:99:b3:71:a0<br>Channel: 11<br>MaxRssi: -86<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:15 +0000<br>LastSeen: 2014-02-28 16:44:24 +0000]]></description>
+<Point>
+<coordinates>-84.325102,30.423719,38.285236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[AP-ISE]]></name>
+<description><![CDATA[MAC: 0:3a:99:b3:71:a1<br>Channel: 11<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:12 +0000<br>LastSeen: 2014-02-28 16:44:42 +0000]]></description>
+<Point>
+<coordinates>-84.324659,30.423435,30.921902</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Guest]]></name>
+<description><![CDATA[MAC: 0:3a:99:b3:71:a2<br>Channel: 11<br>MaxRssi: -85<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:15 +0000<br>LastSeen: 2014-02-28 16:44:42 +0000]]></description>
+<Point>
+<coordinates>-84.324659,30.423435,30.921902</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[AP-ISE-Guest]]></name>
+<description><![CDATA[MAC: 0:3a:99:b3:71:a3<br>Channel: 11<br>MaxRssi: -84<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:18 +0000<br>LastSeen: 2014-02-28 16:44:42 +0000]]></description>
+<Point>
+<coordinates>-84.324659,30.423435,30.921902</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ATROADFC007954]]></name>
+<description><![CDATA[MAC: 0:60:b3:2f:4f:32<br>Channel: 3<br>MaxRssi: -81<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:48 +0000<br>LastSeen: 2014-02-28 15:07:07 +0000]]></description>
+<Point>
+<coordinates>-84.328247,30.435598,30.723547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:60:b3:2f:57:2e<br>Channel: 11<br>MaxRssi: -83<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:39 +0000<br>LastSeen: 2014-02-28 15:07:33 +0000]]></description>
+<Point>
+<coordinates>-84.328276,30.435811,24.450256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Verizon SCH-LC11 0eb9 Secure]]></name>
+<description><![CDATA[MAC: 0:7:ab:7b:e:b9<br>Channel: 8<br>MaxRssi: -71<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:36 +0000<br>LastSeen: 2014-02-28 15:07:52 +0000]]></description>
+<Point>
+<coordinates>-84.328238,30.434709,20.214703</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rosenet]]></name>
+<description><![CDATA[MAC: 0:9:5b:5e:1a:d7<br>Channel: 11<br>MaxRssi: -98<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:12:56 +0000<br>LastSeen: 2014-02-28 15:12:56 +0000]]></description>
+<Point>
+<coordinates>-84.328673,30.431529,18.688637</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Talutil.net]]></name>
+<description><![CDATA[MAC: 0:90:4c:7e:0:6e<br>Channel: 11<br>MaxRssi: -70<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:05:04 +0000<br>LastSeen: 2014-02-28 15:07:07 +0000]]></description>
+<Point>
+<coordinates>-84.328238,30.434709,8.570997</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rosenet]]></name>
+<description><![CDATA[MAC: 0:f:66:18:2c:c<br>Channel: 3<br>MaxRssi: -92<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:39 +0000<br>LastSeen: 2014-02-28 15:08:52 +0000]]></description>
+<Point>
+<coordinates>-84.328167,30.434128,17.932400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rosenet]]></name>
+<description><![CDATA[MAC: 0:f:66:18:32:50<br>Channel: 9<br>MaxRssi: -93<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:33 +0000<br>LastSeen: 2014-02-28 15:09:39 +0000]]></description>
+<Point>
+<coordinates>-84.328150,30.433481,18.371952</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 0:f:66:2a:47:ce<br>Channel: 6<br>MaxRssi: -93<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:45:55 +0000<br>LastSeen: 2014-02-28 16:48:00 +0000]]></description>
+<Point>
+<coordinates>-84.322352,30.423419,22.784590</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Cisco0200]]></name>
+<description><![CDATA[MAC: 18:59:33:bc:c1:1e<br>Channel: 11<br>MaxRssi: -77<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:02:52 +0000<br>LastSeen: 2014-02-28 15:09:06 +0000]]></description>
+<Point>
+<coordinates>-84.328238,30.434709,21.712784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dlink main office]]></name>
+<description><![CDATA[MAC: 1c:7e:e5:4b:e3:a5<br>Channel: 1<br>MaxRssi: -77<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:03:10 +0000<br>LastSeen: 2014-02-28 15:09:05 +0000]]></description>
+<Point>
+<coordinates>-84.328194,30.434282,19.109835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 2:1d:d1:2b:52:30<br>Channel: 10<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:38:47 +0000<br>LastSeen: 2014-02-28 15:43:12 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,25.681637</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 2:1d:d3:4a:4a:50<br>Channel: 6<br>MaxRssi: -99<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:43:05 +0000<br>LastSeen: 2014-02-28 15:43:06 +0000]]></description>
+<Point>
+<coordinates>-84.325382,30.429264,19.136948</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 2:1d:d3:a3:53:10<br>Channel: 1<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:22:11 +0000<br>LastSeen: 2014-02-28 15:33:50 +0000]]></description>
+<Point>
+<coordinates>-84.328958,30.429072,23.343134</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 2:1d:d6:a:5a:10<br>Channel: 11<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:23:22 +0000<br>LastSeen: 2014-02-28 15:24:10 +0000]]></description>
+<Point>
+<coordinates>-84.329090,30.429299,14.548267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 2:1d:d6:b7:ae:30<br>Channel: 10<br>MaxRssi: -88<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:06:00 +0000<br>LastSeen: 2014-02-28 15:11:06 +0000]]></description>
+<Point>
+<coordinates>-84.328234,30.434431,20.857037</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-nomodel.546544]]></name>
+<description><![CDATA[MAC: 2:20:c0:4c:5f:4b<br>Channel: 6<br>MaxRssi: -92<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:21:14 +0000<br>LastSeen: 2014-02-28 17:32:52 +0000]]></description>
+<Point>
+<coordinates>-84.317332,30.420007,34.832783</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP4D6F27]]></name>
+<description><![CDATA[MAC: 2:21:a1:6d:ea:68<br>Channel: 10<br>MaxRssi: -96<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:50:19 +0000<br>LastSeen: 2014-02-28 16:50:46 +0000]]></description>
+<Point>
+<coordinates>-84.320604,30.423191,47.730293</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HPJ610a.8EC9B1]]></name>
+<description><![CDATA[MAC: 2:22:12:f:88:e<br>Channel: 6<br>MaxRssi: -95<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:03 +0000<br>LastSeen: 2014-02-28 15:10:09 +0000]]></description>
+<Point>
+<coordinates>-84.328135,30.433221,15.818065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HPCP1525-417d46]]></name>
+<description><![CDATA[MAC: 2:22:32:d0:a2:cf<br>Channel: 6<br>MaxRssi: -87<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:51:58 +0000<br>LastSeen: 2014-02-28 16:09:17 +0000]]></description>
+<Point>
+<coordinates>-84.321111,30.427610,9.179930</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP02674B]]></name>
+<description><![CDATA[MAC: 2:25:95:c7:9a:c1<br>Channel: 10<br>MaxRssi: -74<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:50:00 +0000<br>LastSeen: 2014-02-28 17:02:02 +0000]]></description>
+<Point>
+<coordinates>-84.319324,30.420122,26.621931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 2:f8:93:5e:68:80<br>Channel: 7<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:06:00 +0000<br>LastSeen: 2014-02-28 15:08:21 +0000]]></description>
+<Point>
+<coordinates>-84.328212,30.434375,18.114008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CNS]]></name>
+<description><![CDATA[MAC: 20:aa:4b:ac:ff:ad<br>Channel: 1<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:06:01 +0000<br>LastSeen: 2014-02-28 15:08:26 +0000]]></description>
+<Point>
+<coordinates>-84.328231,30.434489,28.261778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[5616a5323b1503c]]></name>
+<description><![CDATA[MAC: 20:aa:4b:bc:7e:de<br>Channel: 1<br>MaxRssi: -96<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:20:34 +0000<br>LastSeen: 2014-02-28 15:20:34 +0000]]></description>
+<Point>
+<coordinates>-84.329620,30.429772,13.821133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[5616a5323b1503c-guest]]></name>
+<description><![CDATA[MAC: 20:aa:4b:bc:7e:df<br>Channel: 1<br>MaxRssi: -95<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:16:48 +0000<br>LastSeen: 2014-02-28 15:20:34 +0000]]></description>
+<Point>
+<coordinates>-84.329620,30.429772,13.821133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[SETUP]]></name>
+<description><![CDATA[MAC: 26:fc:80:34:fe:59<br>Channel: 11<br>MaxRssi: -92<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:06:54 +0000<br>LastSeen: 2014-02-28 15:06:55 +0000]]></description>
+<Point>
+<coordinates>-84.328238,30.434709,7.655294</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[free wifi]]></name>
+<description><![CDATA[MAC: 28:c6:8e:1d:e1:72<br>Channel: 11<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:46 +0000<br>LastSeen: 2014-02-28 15:10:51 +0000]]></description>
+<Point>
+<coordinates>-84.328159,30.433537,19.500727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR52]]></name>
+<description><![CDATA[MAC: 28:c6:8e:86:14:fe<br>Channel: 11<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:03 +0000<br>LastSeen: 2014-02-28 15:10:41 +0000]]></description>
+<Point>
+<coordinates>-84.328136,30.433020,14.819536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink7481]]></name>
+<description><![CDATA[MAC: 2a:28:5d:29:fb:78<br>Channel: 6<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:22 +0000<br>LastSeen: 2014-02-28 15:11:05 +0000]]></description>
+<Point>
+<coordinates>-84.328204,30.434300,19.381306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DanfossMobile]]></name>
+<description><![CDATA[MAC: 2c:44:fd:59:6d:b0<br>Channel: 11<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:00:40 +0000<br>LastSeen: 2014-02-28 16:10:21 +0000]]></description>
+<Point>
+<coordinates>-84.320783,30.427574,16.154198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Danfoss]]></name>
+<description><![CDATA[MAC: 2c:44:fd:59:6d:b1<br>Channel: 11<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:01:05 +0000<br>LastSeen: 2014-02-28 16:07:42 +0000]]></description>
+<Point>
+<coordinates>-84.320773,30.427575,14.269818</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hotspot]]></name>
+<description><![CDATA[MAC: 2c:44:fd:59:6d:b2<br>Channel: 11<br>MaxRssi: -81<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:02:03 +0000<br>LastSeen: 2014-02-28 16:09:17 +0000]]></description>
+<Point>
+<coordinates>-84.321024,30.427586,13.942286</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DanfossMobile]]></name>
+<description><![CDATA[MAC: 2c:44:fd:5a:1d:30<br>Channel: 6<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:00:26 +0000<br>LastSeen: 2014-02-28 16:08:46 +0000]]></description>
+<Point>
+<coordinates>-84.320951,30.427604,12.909859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Danfoss]]></name>
+<description><![CDATA[MAC: 2c:44:fd:5a:1d:31<br>Channel: 6<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:00:09 +0000<br>LastSeen: 2014-02-28 16:09:16 +0000]]></description>
+<Point>
+<coordinates>-84.320965,30.427599,11.604322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hotspot]]></name>
+<description><![CDATA[MAC: 2c:44:fd:5a:1d:32<br>Channel: 6<br>MaxRssi: -82<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:00:12 +0000<br>LastSeen: 2014-02-28 16:10:21 +0000]]></description>
+<Point>
+<coordinates>-84.320951,30.427604,12.909859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DanfossMobile]]></name>
+<description><![CDATA[MAC: 2c:44:fd:5a:9:f0<br>Channel: 1<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:51:29 +0000<br>LastSeen: 2014-02-28 16:00:25 +0000]]></description>
+<Point>
+<coordinates>-84.321781,30.428072,26.583719</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Danfoss]]></name>
+<description><![CDATA[MAC: 2c:44:fd:5a:9:f1<br>Channel: 1<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:51:11 +0000<br>LastSeen: 2014-02-28 16:00:26 +0000]]></description>
+<Point>
+<coordinates>-84.322216,30.428805,30.989100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hotspot]]></name>
+<description><![CDATA[MAC: 2c:44:fd:5a:9:f2<br>Channel: 1<br>MaxRssi: -94<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:51:27 +0000<br>LastSeen: 2014-02-28 16:00:29 +0000]]></description>
+<Point>
+<coordinates>-84.322216,30.428805,30.989100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-6C-Photosmart 5520]]></name>
+<description><![CDATA[MAC: 2c:59:e5:b6:aa:6c<br>Channel: 2<br>MaxRssi: -89<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:38:03 +0000<br>LastSeen: 2014-02-28 15:41:52 +0000]]></description>
+<Point>
+<coordinates>-84.325939,30.429360,18.735073</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-F9-Photosmart 5520]]></name>
+<description><![CDATA[MAC: 2c:59:e5:b6:ba:f9<br>Channel: 1<br>MaxRssi: -79<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:38:19 +0000<br>LastSeen: 2014-02-28 15:43:55 +0000]]></description>
+<Point>
+<coordinates>-84.325964,30.429373,19.989975</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-5B-Officejet Pro 8600]]></name>
+<description><![CDATA[MAC: 2c:76:8a:3a:3f:5b<br>Channel: 6<br>MaxRssi: -90<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:43:08 +0000<br>LastSeen: 2014-02-28 16:46:29 +0000]]></description>
+<Point>
+<coordinates>-84.323619,30.423498,31.684481</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[dem yorkshire boyz]]></name>
+<description><![CDATA[MAC: 4:a1:51:8a:b6:72<br>Channel: 6<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:52 +0000<br>LastSeen: 2014-02-28 15:01:31 +0000]]></description>
+<Point>
+<coordinates>-84.328333,30.436404,30.319849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR43]]></name>
+<description><![CDATA[MAC: 4:a1:51:d1:f2:ba<br>Channel: 11<br>MaxRssi: -84<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:55 +0000<br>LastSeen: 2014-02-28 15:14:41 +0000]]></description>
+<Point>
+<coordinates>-84.328151,30.432364,19.309599</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CO FLUNKIES]]></name>
+<description><![CDATA[MAC: 40:8b:7:e5:9a:15<br>Channel: 11<br>MaxRssi: -80<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:33 +0000<br>LastSeen: 2014-02-28 15:05:57 +0000]]></description>
+<Point>
+<coordinates>-84.328329,30.436333,42.035294</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-D414]]></name>
+<description><![CDATA[MAC: 44:32:c8:53:d4:14<br>Channel: 11<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:03 +0000<br>LastSeen: 2014-02-28 15:08:03 +0000]]></description>
+<Point>
+<coordinates>-84.328232,30.434535,29.516087</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-2F44]]></name>
+<description><![CDATA[MAC: 44:32:c8:5b:2f:44<br>Channel: 1<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:15:36 +0000<br>LastSeen: 2014-02-28 15:33:54 +0000]]></description>
+<Point>
+<coordinates>-84.329607,30.429944,19.365601</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-BC6C]]></name>
+<description><![CDATA[MAC: 44:32:c8:63:bc:6c<br>Channel: 1<br>MaxRssi: -99<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:01:00 +0000<br>LastSeen: 2014-02-28 15:01:01 +0000]]></description>
+<Point>
+<coordinates>-84.328342,30.436394,23.001278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NAH KEEP SCROLLING]]></name>
+<description><![CDATA[MAC: 44:32:c8:92:5b:6c<br>Channel: 11<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:53 +0000<br>LastSeen: 2014-02-28 15:08:04 +0000]]></description>
+<Point>
+<coordinates>-84.328229,30.434620,21.787029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-8B74]]></name>
+<description><![CDATA[MAC: 44:32:c8:92:8b:74<br>Channel: 11<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:02:08 +0000<br>LastSeen: 2014-02-28 15:02:15 +0000]]></description>
+<Point>
+<coordinates>-84.328329,30.436333,35.653275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Travel_WiFi-039D]]></name>
+<description><![CDATA[MAC: 44:33:4c:b6:3:9c<br>Channel: 1<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:01:48 +0000<br>LastSeen: 2014-02-28 17:02:26 +0000]]></description>
+<Point>
+<coordinates>-84.318523,30.419775,26.910891</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rosenet2]]></name>
+<description><![CDATA[MAC: 44:58:29:71:91:e8<br>Channel: 6<br>MaxRssi: -85<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:05:32 +0000<br>LastSeen: 2014-02-28 15:08:45 +0000]]></description>
+<Point>
+<coordinates>-84.328238,30.434709,24.802940</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[THOMPSON_WIRELESS]]></name>
+<description><![CDATA[MAC: 44:58:29:71:e0:b6<br>Channel: 6<br>MaxRssi: -91<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:37:24 +0000<br>LastSeen: 2014-02-28 15:37:34 +0000]]></description>
+<Point>
+<coordinates>-84.326892,30.429446,21.317913</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR67]]></name>
+<description><![CDATA[MAC: 44:94:fc:58:14:16<br>Channel: 7<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:22 +0000<br>LastSeen: 2014-02-28 15:12:12 +0000]]></description>
+<Point>
+<coordinates>-84.328132,30.433155,18.917622</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR39]]></name>
+<description><![CDATA[MAC: 44:94:fc:75:4b:ae<br>Channel: 1<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:05:30 +0000<br>LastSeen: 2014-02-28 17:05:36 +0000]]></description>
+<Point>
+<coordinates>-84.317048,30.419281,35.407608</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR12]]></name>
+<description><![CDATA[MAC: 44:94:fc:75:69:ee<br>Channel: 11<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:26 +0000<br>LastSeen: 2014-02-28 15:11:23 +0000]]></description>
+<Point>
+<coordinates>-84.328148,30.433405,20.175789</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR68]]></name>
+<description><![CDATA[MAC: 44:94:fc:a0:b8:6b<br>Channel: 11<br>MaxRssi: -85<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:20 +0000<br>LastSeen: 2014-02-28 15:35:17 +0000]]></description>
+<Point>
+<coordinates>-84.328325,30.432004,10.708889</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Kelsey Drinks]]></name>
+<description><![CDATA[MAC: 48:f8:b3:1b:db:56<br>Channel: 11<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:12:12 +0000<br>LastSeen: 2014-02-28 15:12:12 +0000]]></description>
+<Point>
+<coordinates>-84.328412,30.431906,15.876652</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[theboulevard]]></name>
+<description><![CDATA[MAC: 48:f8:b3:34:19:c4<br>Channel: 1<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:52 +0000<br>LastSeen: 2014-02-28 15:10:26 +0000]]></description>
+<Point>
+<coordinates>-84.328151,30.433316,26.135714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BRACY-PC_Network]]></name>
+<description><![CDATA[MAC: 48:f8:b3:3d:98:67<br>Channel: 1<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:11:10 +0000<br>LastSeen: 2014-02-28 15:13:31 +0000]]></description>
+<Point>
+<coordinates>-84.328381,30.431938,18.466467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Locke]]></name>
+<description><![CDATA[MAC: 48:f8:b3:8:49:fd<br>Channel: 11<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:44 +0000<br>LastSeen: 2014-02-28 15:10:44 +0000]]></description>
+<Point>
+<coordinates>-84.328122,30.432773,14.618994</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[R we fucking or what?]]></name>
+<description><![CDATA[MAC: 48:f8:b3:88:5:52<br>Channel: 8<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:53 +0000<br>LastSeen: 2014-02-28 15:09:20 +0000]]></description>
+<Point>
+<coordinates>-84.328226,30.434576,23.488897</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Larry's Sh*t]]></name>
+<description><![CDATA[MAC: 48:f8:b3:a:d4:c1<br>Channel: 1<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:31 +0000<br>LastSeen: 2014-02-28 15:11:46 +0000]]></description>
+<Point>
+<coordinates>-84.328140,30.432444,17.252048</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NWRDC_1]]></name>
+<description><![CDATA[MAC: 48:f8:b3:a0:c8:cc<br>Channel: 6<br>MaxRssi: -76<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:37 +0000<br>LastSeen: 2014-02-28 16:47:54 +0000]]></description>
+<Point>
+<coordinates>-84.323550,30.423484,34.413971</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR03]]></name>
+<description><![CDATA[MAC: 4c:60:de:cf:f0:a4<br>Channel: 4<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:35:40 +0000<br>LastSeen: 2014-02-28 15:35:46 +0000]]></description>
+<Point>
+<coordinates>-84.327320,30.429565,29.306528</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR17]]></name>
+<description><![CDATA[MAC: 4c:60:de:d0:38:be<br>Channel: 3<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:12:09 +0000<br>LastSeen: 2014-02-28 15:13:36 +0000]]></description>
+<Point>
+<coordinates>-84.328388,30.431931,17.718796</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DTC-WAP10]]></name>
+<description><![CDATA[MAC: 4c:60:de:d3:14:ce<br>Channel: 1<br>MaxRssi: -79<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:59:36 +0000<br>LastSeen: 2014-02-28 16:09:07 +0000]]></description>
+<Point>
+<coordinates>-84.320448,30.427698,30.775343</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[KDJ]]></name>
+<description><![CDATA[MAC: 4c:60:de:fe:ed:e4<br>Channel: 6<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:12:07 +0000<br>LastSeen: 2014-02-28 15:12:29 +0000]]></description>
+<Point>
+<coordinates>-84.328405,30.431916,17.359732</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[R we fucking or what?-guest]]></name>
+<description><![CDATA[MAC: 4e:f8:b3:88:5:52<br>Channel: 8<br>MaxRssi: -93<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:59 +0000<br>LastSeen: 2014-02-28 15:08:17 +0000]]></description>
+<Point>
+<coordinates>-84.328226,30.434576,21.830406</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Batman's Only]]></name>
+<description><![CDATA[MAC: 58:6d:8f:48:95:c0<br>Channel: 1<br>MaxRssi: -99<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:59 +0000<br>LastSeen: 2014-02-28 15:09:59 +0000]]></description>
+<Point>
+<coordinates>-84.328140,30.433280,13.311684</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LuckySpruce]]></name>
+<description><![CDATA[MAC: 58:6d:8f:6f:8b:b3<br>Channel: 6<br>MaxRssi: -74<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:46:41 +0000<br>LastSeen: 2014-02-28 16:50:41 +0000]]></description>
+<Point>
+<coordinates>-84.322077,30.423338,26.159771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[LuckySpruce-guest]]></name>
+<description><![CDATA[MAC: 58:6d:8f:6f:8b:b5<br>Channel: 6<br>MaxRssi: -74<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:46:41 +0000<br>LastSeen: 2014-02-28 16:49:27 +0000]]></description>
+<Point>
+<coordinates>-84.322077,30.423338,26.159771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 60:33:4b:e8:ac:73<br>Channel: 6<br>MaxRssi: -72<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:46:16 +0000<br>LastSeen: 2014-02-28 16:51:38 +0000]]></description>
+<Point>
+<coordinates>-84.322021,30.423326,27.837561</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[TP-LINK_3B0A90]]></name>
+<description><![CDATA[MAC: 64:70:2:3b:a:90<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:50 +0000<br>LastSeen: 2014-02-28 15:12:05 +0000]]></description>
+<Point>
+<coordinates>-84.328207,30.432187,6.913210</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[MarvinWheeler]]></name>
+<description><![CDATA[MAC: 68:7f:74:31:d7:6<br>Channel: 6<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:46 +0000<br>LastSeen: 2014-02-28 15:11:50 +0000]]></description>
+<Point>
+<coordinates>-84.328154,30.432356,20.191319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[MarvinWheeler-guest]]></name>
+<description><![CDATA[MAC: 68:7f:74:31:d7:7<br>Channel: 6<br>MaxRssi: -91<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:46 +0000<br>LastSeen: 2014-02-28 15:11:50 +0000]]></description>
+<Point>
+<coordinates>-84.328154,30.432356,20.191319</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-fe-LaserJet 100]]></name>
+<description><![CDATA[MAC: 68:94:23:24:a8:fe<br>Channel: 6<br>MaxRssi: -80<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:03:16 +0000<br>LastSeen: 2014-02-28 17:34:00 +0000]]></description>
+<Point>
+<coordinates>-84.317408,30.419769,29.997929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Spheromak]]></name>
+<description><![CDATA[MAC: 68:a8:6d:5a:37:d<br>Channel: 6<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:53 +0000<br>LastSeen: 2014-02-28 16:42:54 +0000]]></description>
+<Point>
+<coordinates>-84.324871,30.423541,30.664474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:94:37:f0<br>Channel: 11<br>MaxRssi: -89<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:01:15 +0000<br>LastSeen: 2014-02-28 17:02:07 +0000]]></description>
+<Point>
+<coordinates>-84.319129,30.420024,29.787191</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:94:37:f1<br>Channel: 11<br>MaxRssi: -91<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:01:15 +0000<br>LastSeen: 2014-02-28 17:02:07 +0000]]></description>
+<Point>
+<coordinates>-84.319129,30.420024,29.787191</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:94:3c:d0<br>Channel: 6<br>MaxRssi: -83<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:01:10 +0000<br>LastSeen: 2014-02-28 17:20:11 +0000]]></description>
+<Point>
+<coordinates>-84.317906,30.419536,36.813709</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:94:3c:d1<br>Channel: 6<br>MaxRssi: -81<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:03:13 +0000<br>LastSeen: 2014-02-28 17:34:05 +0000]]></description>
+<Point>
+<coordinates>-84.317665,30.419513,40.851982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:74:e0<br>Channel: 11<br>MaxRssi: -89<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:29:08 +0000<br>LastSeen: 2014-02-28 17:33:43 +0000]]></description>
+<Point>
+<coordinates>-84.317300,30.419908,32.713158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:74:e1<br>Channel: 11<br>MaxRssi: -73<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:21:13 +0000<br>LastSeen: 2014-02-28 17:21:13 +0000]]></description>
+<Point>
+<coordinates>-84.317331,30.420000,28.564613</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:79:50<br>Channel: 1<br>MaxRssi: -87<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:24:20 +0000<br>LastSeen: 2014-02-28 17:32:39 +0000]]></description>
+<Point>
+<coordinates>-84.317098,30.419962,38.032631</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:79:90<br>Channel: 1<br>MaxRssi: -84<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:18:43 +0000<br>LastSeen: 2014-02-28 17:20:17 +0000]]></description>
+<Point>
+<coordinates>-84.317755,30.419586,29.448000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:79:91<br>Channel: 1<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:20:11 +0000<br>LastSeen: 2014-02-28 17:20:17 +0000]]></description>
+<Point>
+<coordinates>-84.317755,30.419586,32.068066</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7b:21<br>Channel: 11<br>MaxRssi: -86<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:19:33 +0000<br>LastSeen: 2014-02-28 17:20:03 +0000]]></description>
+<Point>
+<coordinates>-84.317745,30.419583,29.192799</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:60<br>Channel: 1<br>MaxRssi: -72<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:21:11 +0000<br>LastSeen: 2014-02-28 17:22:58 +0000]]></description>
+<Point>
+<coordinates>-84.317333,30.419985,33.555351</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:61<br>Channel: 1<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:23:49 +0000<br>LastSeen: 2014-02-28 17:32:55 +0000]]></description>
+<Point>
+<coordinates>-84.317131,30.420020,38.270592</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:a0<br>Channel: 11<br>MaxRssi: -75<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:04:47 +0000<br>LastSeen: 2014-02-28 17:33:02 +0000]]></description>
+<Point>
+<coordinates>-84.317364,30.419887,45.080242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:a1<br>Channel: 11<br>MaxRssi: -74<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:04:42 +0000<br>LastSeen: 2014-02-28 17:33:02 +0000]]></description>
+<Point>
+<coordinates>-84.317352,30.419933,42.648651</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:b0<br>Channel: 1<br>MaxRssi: -78<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:03:35 +0000<br>LastSeen: 2014-02-28 17:33:54 +0000]]></description>
+<Point>
+<coordinates>-84.317650,30.419481,30.270590</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:b1<br>Channel: 1<br>MaxRssi: -79<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:03:35 +0000<br>LastSeen: 2014-02-28 17:33:54 +0000]]></description>
+<Point>
+<coordinates>-84.317402,30.419795,35.668533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:d0<br>Channel: 11<br>MaxRssi: -77<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:02:04 +0000<br>LastSeen: 2014-02-28 17:19:50 +0000]]></description>
+<Point>
+<coordinates>-84.317960,30.419574,46.626198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:d1<br>Channel: 11<br>MaxRssi: -77<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:02:04 +0000<br>LastSeen: 2014-02-28 17:20:02 +0000]]></description>
+<Point>
+<coordinates>-84.317960,30.419574,46.626198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:e0<br>Channel: 6<br>MaxRssi: -73<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:21:05 +0000<br>LastSeen: 2014-02-28 17:33:37 +0000]]></description>
+<Point>
+<coordinates>-84.317351,30.419952,35.850269</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:96:7c:e1<br>Channel: 6<br>MaxRssi: -70<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:21:05 +0000<br>LastSeen: 2014-02-28 17:33:43 +0000]]></description>
+<Point>
+<coordinates>-84.317333,30.419985,33.555351</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:bc:cb:60<br>Channel: 6<br>MaxRssi: -86<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:39:39 +0000<br>LastSeen: 2014-02-28 16:41:24 +0000]]></description>
+<Point>
+<coordinates>-84.325842,30.423788,38.900322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:bc:cb:61<br>Channel: 6<br>MaxRssi: -86<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:38:30 +0000<br>LastSeen: 2014-02-28 16:41:21 +0000]]></description>
+<Point>
+<coordinates>-84.325842,30.423788,38.900322</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:bc:cc:40<br>Channel: 11<br>MaxRssi: -81<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:36:19 +0000<br>LastSeen: 2014-02-28 16:41:56 +0000]]></description>
+<Point>
+<coordinates>-84.325677,30.424008,33.247517</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:bc:cc:41<br>Channel: 11<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:36:52 +0000<br>LastSeen: 2014-02-28 16:41:56 +0000]]></description>
+<Point>
+<coordinates>-84.325511,30.424216,31.226540</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:bc:cc:a0<br>Channel: 11<br>MaxRssi: -84<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:39:13 +0000<br>LastSeen: 2014-02-28 16:41:10 +0000]]></description>
+<Point>
+<coordinates>-84.325913,30.423631,39.074402</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:bc:cc:a1<br>Channel: 11<br>MaxRssi: -84<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:39:30 +0000<br>LastSeen: 2014-02-28 16:41:10 +0000]]></description>
+<Point>
+<coordinates>-84.325913,30.423631,29.293762</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:bc:cd:40<br>Channel: 1<br>MaxRssi: -82<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:36:34 +0000<br>LastSeen: 2014-02-28 16:41:58 +0000]]></description>
+<Point>
+<coordinates>-84.325829,30.423794,35.365219</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 6c:f3:7f:bc:cd:41<br>Channel: 1<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:36:34 +0000<br>LastSeen: 2014-02-28 16:41:58 +0000]]></description>
+<Point>
+<coordinates>-84.325943,30.423670,19.673603</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Pretty Fly for a Wi-Fi]]></name>
+<description><![CDATA[MAC: 6c:fd:b9:4c:ea:d8<br>Channel: 1<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:40 +0000<br>LastSeen: 2014-02-28 15:09:40 +0000]]></description>
+<Point>
+<coordinates>-84.328151,30.433463,18.271896</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 78:cd:8e:29:7d:99<br>Channel: 1<br>MaxRssi: -96<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:51 +0000<br>LastSeen: 2014-02-28 15:42:57 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,26.852543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 78:cd:8e:29:7d:9a<br>Channel: 1<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:56 +0000<br>LastSeen: 2014-02-28 15:43:14 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,25.493837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: 78:cd:8e:29:7d:9b<br>Channel: 1<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:42:51 +0000<br>LastSeen: 2014-02-28 15:42:57 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,25.493837</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-3f-LaserJet 400 M401dw]]></name>
+<description><![CDATA[MAC: 7c:e9:d3:4f:43:3f<br>Channel: 1<br>MaxRssi: -71<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:03:46 +0000<br>LastSeen: 2014-02-28 17:34:03 +0000]]></description>
+<Point>
+<coordinates>-84.317369,30.419868,47.908783</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.d9c]]></name>
+<description><![CDATA[MAC: 8:86:3b:1a:3d:9c<br>Channel: 1<br>MaxRssi: -81<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:40 +0000<br>LastSeen: 2014-02-28 15:13:59 +0000]]></description>
+<Point>
+<coordinates>-84.328136,30.433020,14.819536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Hide Ya Kids | Hide Ya Wifi]]></name>
+<description><![CDATA[MAC: 8:86:3b:24:6d:fc<br>Channel: 3<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:05 +0000<br>LastSeen: 2014-02-28 15:09:06 +0000]]></description>
+<Point>
+<coordinates>-84.328147,30.433873,21.613018</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.890]]></name>
+<description><![CDATA[MAC: 8:86:3b:2b:8:90<br>Channel: 10<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:16 +0000<br>LastSeen: 2014-02-28 15:11:06 +0000]]></description>
+<Point>
+<coordinates>-84.328149,30.433306,21.911747</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BadDr3adH3ad]]></name>
+<description><![CDATA[MAC: 8:86:3b:2f:7e:86<br>Channel: 11<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:34:32 +0000<br>LastSeen: 2014-02-28 15:34:32 +0000]]></description>
+<Point>
+<coordinates>-84.328211,30.429552,10.375072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[JAX]]></name>
+<description><![CDATA[MAC: 8:86:3b:2f:e:50<br>Channel: 1<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:00 +0000<br>LastSeen: 2014-02-28 15:08:13 +0000]]></description>
+<Point>
+<coordinates>-84.328234,30.434431,20.857037</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.f07]]></name>
+<description><![CDATA[MAC: 8:86:3b:5a:3f:7<br>Channel: 6<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:48 +0000<br>LastSeen: 2014-02-28 15:10:41 +0000]]></description>
+<Point>
+<coordinates>-84.328121,30.432820,13.917931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.2ca]]></name>
+<description><![CDATA[MAC: 8:86:3b:bd:a2:ca<br>Channel: 6<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:50 +0000<br>LastSeen: 2014-02-28 15:10:41 +0000]]></description>
+<Point>
+<coordinates>-84.328153,30.433322,24.829300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.b1a]]></name>
+<description><![CDATA[MAC: 8:86:3b:f0:bb:1a<br>Channel: 10<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:06 +0000<br>LastSeen: 2014-02-28 15:10:23 +0000]]></description>
+<Point>
+<coordinates>-84.328136,30.433020,14.819536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-32-LaserJet M1217]]></name>
+<description><![CDATA[MAC: 8:ed:b9:5d:a9:32<br>Channel: 6<br>MaxRssi: -94<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:59:54 +0000<br>LastSeen: 2014-02-28 17:01:19 +0000]]></description>
+<Point>
+<coordinates>-84.319372,30.420163,29.484091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[The Governator]]></name>
+<description><![CDATA[MAC: 80:96:b1:b4:8a:2c<br>Channel: 6<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:02:12 +0000<br>LastSeen: 2014-02-28 16:02:22 +0000]]></description>
+<Point>
+<coordinates>-84.320951,30.427604,12.909859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR44]]></name>
+<description><![CDATA[MAC: 84:1b:5e:83:f8:0<br>Channel: 2<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:12:15 +0000<br>LastSeen: 2014-02-28 15:13:36 +0000]]></description>
+<Point>
+<coordinates>-84.328423,30.431876,12.228695</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[poisonwolvez]]></name>
+<description><![CDATA[MAC: 84:1b:5e:ee:87:e8<br>Channel: 9<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:13 +0000<br>LastSeen: 2014-02-28 15:11:22 +0000]]></description>
+<Point>
+<coordinates>-84.328133,30.432514,18.636505</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Jimmy]]></name>
+<description><![CDATA[MAC: 88:1f:a1:37:8f:3e<br>Channel: 6<br>MaxRssi: -81<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:32 +0000<br>LastSeen: 2014-02-28 16:47:48 +0000]]></description>
+<Point>
+<coordinates>-84.324342,30.423423,29.633312</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Joel's Wi-Fi Network]]></name>
+<description><![CDATA[MAC: 88:1f:a1:38:a7:bc<br>Channel: 11<br>MaxRssi: -78<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 17:01:46 +0000<br>LastSeen: 2014-02-28 17:20:54 +0000]]></description>
+<Point>
+<coordinates>-84.317755,30.419586,29.448000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CCYSMain]]></name>
+<description><![CDATA[MAC: 88:dc:96:b:5a:18<br>Channel: 2<br>MaxRssi: -65<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:35:33 +0000<br>LastSeen: 2014-02-28 15:45:45 +0000]]></description>
+<Point>
+<coordinates>-84.326001,30.429374,19.716637</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[mac]]></name>
+<description><![CDATA[MAC: 8c:2d:aa:4b:e:d9<br>Channel: 11<br>MaxRssi: -88<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:53:59 +0000<br>LastSeen: 2014-02-28 16:56:14 +0000]]></description>
+<Point>
+<coordinates>-84.320524,30.421790,27.708498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-2747]]></name>
+<description><![CDATA[MAC: 8c:4:ff:f1:27:47<br>Channel: 11<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:09 +0000<br>LastSeen: 2014-02-28 15:08:13 +0000]]></description>
+<Point>
+<coordinates>-84.328229,30.434455,29.990042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NHMFL]]></name>
+<description><![CDATA[MAC: 90:72:40:14:18:d0<br>Channel: 6<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:04:18 +0000<br>LastSeen: 2014-02-28 16:05:58 +0000]]></description>
+<Point>
+<coordinates>-84.319514,30.426680,19.759043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.99e]]></name>
+<description><![CDATA[MAC: 94:44:52:fe:9:9e<br>Channel: 1<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:11:04 +0000<br>LastSeen: 2014-02-28 15:12:33 +0000]]></description>
+<Point>
+<coordinates>-84.328212,30.432164,8.146751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Smooth-guest]]></name>
+<description><![CDATA[MAC: 98:fc:11:4a:81:a3<br>Channel: 11<br>MaxRssi: -98<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:11:29 +0000<br>LastSeen: 2014-02-28 15:11:29 +0000]]></description>
+<Point>
+<coordinates>-84.328165,30.432294,17.271730</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[AquaTiger]]></name>
+<description><![CDATA[MAC: 98:fc:11:7c:98:c<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:37 +0000<br>LastSeen: 2014-02-28 15:02:29 +0000]]></description>
+<Point>
+<coordinates>-84.328347,30.436386,42.482639</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUWIN]]></name>
+<description><![CDATA[MAC: 9c:1c:12:15:55:70<br>Channel: 1<br>MaxRssi: -82<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:45:48 +0000<br>LastSeen: 2014-02-28 16:47:55 +0000]]></description>
+<Point>
+<coordinates>-84.322991,30.423494,25.237926</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 9c:1c:12:15:55:71<br>Channel: 1<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:45:48 +0000<br>LastSeen: 2014-02-28 16:47:55 +0000]]></description>
+<Point>
+<coordinates>-84.322979,30.423492,24.763645</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FSUSecure]]></name>
+<description><![CDATA[MAC: 9c:1c:12:a2:a9:21<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:36:29 +0000<br>LastSeen: 2014-02-28 16:36:41 +0000]]></description>
+<Point>
+<coordinates>-84.325333,30.424453,32.216320</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.f07.guests]]></name>
+<description><![CDATA[MAC: a:86:3b:5a:3f:8<br>Channel: 6<br>MaxRssi: -95<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:23 +0000<br>LastSeen: 2014-02-28 15:10:57 +0000]]></description>
+<Point>
+<coordinates>-84.328121,30.432820,13.917931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink0657]]></name>
+<description><![CDATA[MAC: a4:b1:e9:e0:b:2d<br>Channel: 11<br>MaxRssi: -81<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:33 +0000<br>LastSeen: 2014-02-28 15:05:54 +0000]]></description>
+<Point>
+<coordinates>-84.328247,30.435598,30.723547</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink5336]]></name>
+<description><![CDATA[MAC: b2:b2:dc:8e:d0:b8<br>Channel: 8<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:37:27 +0000<br>LastSeen: 2014-02-28 15:37:27 +0000]]></description>
+<Point>
+<coordinates>-84.326845,30.429447,21.502771</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Not WiFi]]></name>
+<description><![CDATA[MAC: b4:75:e:4:b0:4e<br>Channel: 2<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:42 +0000<br>LastSeen: 2014-02-28 15:10:51 +0000]]></description>
+<Point>
+<coordinates>-84.328140,30.433280,13.311684</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[westell9206]]></name>
+<description><![CDATA[MAC: c:d5:2:99:0:46<br>Channel: 6<br>MaxRssi: -88<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:27 +0000<br>LastSeen: 2014-02-28 15:10:44 +0000]]></description>
+<Point>
+<coordinates>-84.328108,30.432913,17.311829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-6882]]></name>
+<description><![CDATA[MAC: c:f8:93:5e:68:80<br>Channel: 7<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:17 +0000<br>LastSeen: 2014-02-28 15:08:30 +0000]]></description>
+<Point>
+<coordinates>-84.328212,30.434375,18.114008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NHMFL]]></name>
+<description><![CDATA[MAC: c0:c1:c0:e5:6b:a2<br>Channel: 6<br>MaxRssi: -85<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:49:53 +0000<br>LastSeen: 2014-02-28 16:51:44 +0000]]></description>
+<Point>
+<coordinates>-84.321064,30.423179,20.964708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NHMFL]]></name>
+<description><![CDATA[MAC: c0:c1:c0:e5:6c:1<br>Channel: 11<br>MaxRssi: -81<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:48:46 +0000<br>LastSeen: 2014-02-28 16:51:39 +0000]]></description>
+<Point>
+<coordinates>-84.321018,30.423188,22.689838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[rosenet]]></name>
+<description><![CDATA[MAC: c0:c1:c0:eb:3b:43<br>Channel: 1<br>MaxRssi: -96<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:06:38 +0000<br>LastSeen: 2014-02-28 15:06:39 +0000]]></description>
+<Point>
+<coordinates>-84.328238,30.434709,18.388243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[The BLVD Office WiFi]]></name>
+<description><![CDATA[MAC: c2:9f:db:9b:a2:a2<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:06 +0000<br>LastSeen: 2014-02-28 15:08:06 +0000]]></description>
+<Point>
+<coordinates>-84.328231,30.434489,28.261778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[The BLVD Office WiFi]]></name>
+<description><![CDATA[MAC: c2:9f:db:9b:a4:3d<br>Channel: 6<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:50 +0000<br>LastSeen: 2014-02-28 15:08:13 +0000]]></description>
+<Point>
+<coordinates>-84.328234,30.434431,20.857037</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: c2:a4:62:a5:9e:f0<br>Channel: 1<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:07 +0000<br>LastSeen: 2014-02-28 15:08:19 +0000]]></description>
+<Point>
+<coordinates>-84.328208,30.434362,18.950256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: c2:a4:62:ed:8:a0<br>Channel: 10<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:48 +0000<br>LastSeen: 2014-02-28 15:10:49 +0000]]></description>
+<Point>
+<coordinates>-84.328115,30.432746,11.223143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: c2:a4:62:f3:19:30<br>Channel: 5<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:05:50 +0000<br>LastSeen: 2014-02-28 15:09:15 +0000]]></description>
+<Point>
+<coordinates>-84.328212,30.434375,18.114008</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-5288]]></name>
+<description><![CDATA[MAC: c4:39:3a:19:52:88<br>Channel: 1<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:07 +0000<br>LastSeen: 2014-02-28 15:08:22 +0000]]></description>
+<Point>
+<coordinates>-84.328208,30.434338,16.548136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: c4:39:3a:19:52:89<br>Channel: 1<br>MaxRssi: -99<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:21 +0000<br>LastSeen: 2014-02-28 15:08:22 +0000]]></description>
+<Point>
+<coordinates>-84.328208,30.434338,16.548136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-D9C8]]></name>
+<description><![CDATA[MAC: c4:39:3a:1a:d9:c8<br>Channel: 1<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:01:02 +0000<br>LastSeen: 2014-02-28 15:08:30 +0000]]></description>
+<Point>
+<coordinates>-84.328342,30.436394,26.890787</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: c4:39:3a:1a:d9:c9<br>Channel: 1<br>MaxRssi: -96<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:01:02 +0000<br>LastSeen: 2014-02-28 15:01:03 +0000]]></description>
+<Point>
+<coordinates>-84.328342,30.436394,38.412083</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: c4:39:3a:1a:d9:ca<br>Channel: 1<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:01:02 +0000<br>LastSeen: 2014-02-28 15:01:03 +0000]]></description>
+<Point>
+<coordinates>-84.328342,30.436394,26.890787</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: c4:39:3a:1a:d9:cb<br>Channel: 1<br>MaxRssi: -96<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:01:02 +0000<br>LastSeen: 2014-02-28 15:08:30 +0000]]></description>
+<Point>
+<coordinates>-84.328342,30.436394,26.890787</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[JR-PC_Network]]></name>
+<description><![CDATA[MAC: c4:3d:c7:57:77:2c<br>Channel: 11<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:35 +0000<br>LastSeen: 2014-02-28 15:08:30 +0000]]></description>
+<Point>
+<coordinates>-84.328351,30.436402,36.050804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR]]></name>
+<description><![CDATA[MAC: c4:3d:c7:a7:dd:d5<br>Channel: 11<br>MaxRssi: -93<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:11:01 +0000<br>LastSeen: 2014-02-28 15:12:46 +0000]]></description>
+<Point>
+<coordinates>-84.328513,30.431778,24.498241</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[The BLVD CPU Lab]]></name>
+<description><![CDATA[MAC: c6:9f:db:9b:a2:a2<br>Channel: 6<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:06 +0000<br>LastSeen: 2014-02-28 15:08:07 +0000]]></description>
+<Point>
+<coordinates>-84.328231,30.434489,28.261778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[The BLVD CPU Lab]]></name>
+<description><![CDATA[MAC: c6:9f:db:9b:a4:3d<br>Channel: 6<br>MaxRssi: -88<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:02 +0000<br>LastSeen: 2014-02-28 15:08:32 +0000]]></description>
+<Point>
+<coordinates>-84.328194,30.434282,19.109835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[medialink_3C4678]]></name>
+<description><![CDATA[MAC: c8:3a:35:3c:46:78<br>Channel: 4<br>MaxRssi: -97<br>Security: WPA<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:40 +0000<br>LastSeen: 2014-02-28 15:08:40 +0000]]></description>
+<Point>
+<coordinates>-84.328181,30.434162,17.415211</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Warehouse]]></name>
+<description><![CDATA[MAC: c8:d7:19:28:28:23<br>Channel: 2<br>MaxRssi: -70<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:03:04 +0000<br>LastSeen: 2014-02-28 15:07:53 +0000]]></description>
+<Point>
+<coordinates>-84.328269,30.434952,34.369667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Cisco58500]]></name>
+<description><![CDATA[MAC: c8:d7:19:79:4e:28<br>Channel: 1<br>MaxRssi: -95<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:22:43 +0000<br>LastSeen: 2014-02-28 15:32:29 +0000]]></description>
+<Point>
+<coordinates>-84.329006,30.429070,43.081871</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BlueShark]]></name>
+<description><![CDATA[MAC: c8:d7:19:79:ad:ad<br>Channel: 11<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:11:39 +0000<br>LastSeen: 2014-02-28 15:12:05 +0000]]></description>
+<Point>
+<coordinates>-84.328201,30.432198,9.609972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[owls]]></name>
+<description><![CDATA[MAC: c8:d7:19:cf:6a:e8<br>Channel: 11<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:44 +0000<br>LastSeen: 2014-02-28 15:12:50 +0000]]></description>
+<Point>
+<coordinates>-84.328131,30.432522,17.095566</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-548F]]></name>
+<description><![CDATA[MAC: cc:35:40:a5:54:8f<br>Channel: 11<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:52 +0000<br>LastSeen: 2014-02-28 15:10:28 +0000]]></description>
+<Point>
+<coordinates>-84.328212,30.434328,25.874439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Infonet]]></name>
+<description><![CDATA[MAC: cc:35:40:b4:63:3f<br>Channel: 11<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:19:28 +0000<br>LastSeen: 2014-02-28 16:20:20 +0000]]></description>
+<Point>
+<coordinates>-84.324615,30.426373,23.029388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-09FF]]></name>
+<description><![CDATA[MAC: cc:35:40:b5:9:ff<br>Channel: 11<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:05:11 +0000<br>LastSeen: 2014-02-28 15:08:31 +0000]]></description>
+<Point>
+<coordinates>-84.328188,30.434262,16.863777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-CAB7]]></name>
+<description><![CDATA[MAC: cc:35:40:d7:ca:b7<br>Channel: 11<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:15 +0000<br>LastSeen: 2014-02-28 15:08:30 +0000]]></description>
+<Point>
+<coordinates>-84.328188,30.434262,16.863777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-9EF2]]></name>
+<description><![CDATA[MAC: cc:a4:62:a5:9e:f0<br>Channel: 1<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:06 +0000<br>LastSeen: 2014-02-28 15:08:19 +0000]]></description>
+<Point>
+<coordinates>-84.328231,30.434489,28.261778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[#LateNightCreep]]></name>
+<description><![CDATA[MAC: cc:a4:62:ed:8:a0<br>Channel: 10<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:40 +0000<br>LastSeen: 2014-02-28 15:10:57 +0000]]></description>
+<Point>
+<coordinates>-84.328121,30.432820,13.917931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[PLATO]]></name>
+<description><![CDATA[MAC: cc:a4:62:f3:19:30<br>Channel: 5<br>MaxRssi: -86<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:52 +0000<br>LastSeen: 2014-02-28 15:09:15 +0000]]></description>
+<Point>
+<coordinates>-84.328208,30.434338,16.548136</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink9674]]></name>
+<description><![CDATA[MAC: ce:5d:4e:f5:c9:c4<br>Channel: 6<br>MaxRssi: -79<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:05:20 +0000<br>LastSeen: 2014-02-28 15:10:40 +0000]]></description>
+<Point>
+<coordinates>-84.328212,30.434328,25.874439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Warehouse-guest]]></name>
+<description><![CDATA[MAC: ce:d7:19:28:28:23<br>Channel: 2<br>MaxRssi: -71<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:03:13 +0000<br>LastSeen: 2014-02-28 15:08:07 +0000]]></description>
+<Point>
+<coordinates>-84.328269,30.434952,34.369667</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[DTC-WAP1]]></name>
+<description><![CDATA[MAC: e0:91:f5:f:4e:d5<br>Channel: 11<br>MaxRssi: -68<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:56 +0000<br>LastSeen: 2014-02-28 16:48:29 +0000]]></description>
+<Point>
+<coordinates>-84.322892,30.423487,24.672115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[BEI-g]]></name>
+<description><![CDATA[MAC: e0:91:f5:f8:b9:f9<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:31 +0000<br>LastSeen: 2014-02-28 16:45:31 +0000]]></description>
+<Point>
+<coordinates>-84.324226,30.423430,30.691626</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: e2:3e:fc:81:11:e0<br>Channel: 2<br>MaxRssi: -86<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:55 +0000<br>LastSeen: 2014-02-28 15:12:16 +0000]]></description>
+<Point>
+<coordinates>-84.328136,30.432557,11.018021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: e2:3e:fc:c9:a4:e0<br>Channel: 11<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:01:36 +0000<br>LastSeen: 2014-02-28 15:01:38 +0000]]></description>
+<Point>
+<coordinates>-84.328347,30.436386,37.606689</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: e2:89:2c:1b:fc:60<br>Channel: 9<br>MaxRssi: -96<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:43:06 +0000<br>LastSeen: 2014-02-28 15:43:06 +0000]]></description>
+<Point>
+<coordinates>-84.325382,30.429264,16.026825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: e2:89:2c:4d:5d:60<br>Channel: 8<br>MaxRssi: -84<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:50 +0000<br>LastSeen: 2014-02-28 15:08:32 +0000]]></description>
+<Point>
+<coordinates>-84.328232,30.434518,29.576944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[(null)]]></name>
+<description><![CDATA[MAC: e2:89:2c:e1:9:30<br>Channel: 7<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:47 +0000<br>LastSeen: 2014-02-28 15:01:05 +0000]]></description>
+<Point>
+<coordinates>-84.328347,30.436417,28.308481</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[NETGEAR_Guest1]]></name>
+<description><![CDATA[MAC: e2:91:f5:f8:b9:fa<br>Channel: 6<br>MaxRssi: -92<br>Security: WEP<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:31 +0000<br>LastSeen: 2014-02-28 16:44:49 +0000]]></description>
+<Point>
+<coordinates>-84.324836,30.423512,32.440708</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-11E2]]></name>
+<description><![CDATA[MAC: e8:3e:fc:81:11:e0<br>Channel: 2<br>MaxRssi: -88<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:55 +0000<br>LastSeen: 2014-02-28 15:12:16 +0000]]></description>
+<Point>
+<coordinates>-84.328136,30.432557,11.018021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-A4E2]]></name>
+<description><![CDATA[MAC: e8:3e:fc:c9:a4:e0<br>Channel: 11<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:35 +0000<br>LastSeen: 2014-02-28 15:02:10 +0000]]></description>
+<Point>
+<coordinates>-84.328481,30.436527,59.912186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-FC62]]></name>
+<description><![CDATA[MAC: e8:89:2c:1b:fc:60<br>Channel: 9<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:38:47 +0000<br>LastSeen: 2014-02-28 15:43:11 +0000]]></description>
+<Point>
+<coordinates>-84.325476,30.429282,24.241838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HOME-5D62]]></name>
+<description><![CDATA[MAC: e8:89:2c:4d:5d:60<br>Channel: 8<br>MaxRssi: -83<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:07:50 +0000<br>LastSeen: 2014-02-28 15:08:32 +0000]]></description>
+<Point>
+<coordinates>-84.328226,30.434576,24.447914</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[PimpShit]]></name>
+<description><![CDATA[MAC: e8:89:2c:e1:9:30<br>Channel: 7<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:47 +0000<br>LastSeen: 2014-02-28 15:01:57 +0000]]></description>
+<Point>
+<coordinates>-84.328347,30.436417,28.308481</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Under The Sea]]></name>
+<description><![CDATA[MAC: ec:1a:59:2f:f5:5c<br>Channel: 6<br>MaxRssi: -92<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:50 +0000<br>LastSeen: 2014-02-28 15:10:02 +0000]]></description>
+<Point>
+<coordinates>-84.328136,30.433256,15.368565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.0b2]]></name>
+<description><![CDATA[MAC: ec:1a:59:36:e0:b2<br>Channel: 1<br>MaxRssi: -90<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:46 +0000<br>LastSeen: 2014-02-28 15:03:03 +0000]]></description>
+<Point>
+<coordinates>-84.328341,30.436298,25.686071</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.0b2.guests]]></name>
+<description><![CDATA[MAC: ec:1a:59:36:e0:b5<br>Channel: 1<br>MaxRssi: -89<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:33 +0000<br>LastSeen: 2014-02-28 15:02:27 +0000]]></description>
+<Point>
+<coordinates>-84.328351,30.436402,28.502340</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FanmCabaret]]></name>
+<description><![CDATA[MAC: ec:1a:59:3a:c2:2e<br>Channel: 9<br>MaxRssi: -86<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:17 +0000<br>LastSeen: 2014-02-28 15:10:51 +0000]]></description>
+<Point>
+<coordinates>-84.328153,30.433322,24.829300</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Herpderp Interwebzz]]></name>
+<description><![CDATA[MAC: ec:1a:59:8:c5:87<br>Channel: 11<br>MaxRssi: -82<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:08:47 +0000<br>LastSeen: 2014-02-28 15:11:08 +0000]]></description>
+<Point>
+<coordinates>-84.328140,30.433280,13.311684</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.4e5]]></name>
+<description><![CDATA[MAC: ec:1a:59:88:74:e5<br>Channel: 6<br>MaxRssi: -95<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:34:39 +0000<br>LastSeen: 2014-02-28 15:34:44 +0000]]></description>
+<Point>
+<coordinates>-84.328085,30.429567,20.179855</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.c18]]></name>
+<description><![CDATA[MAC: ec:1a:59:8e:c:18<br>Channel: 11<br>MaxRssi: -98<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:39 +0000<br>LastSeen: 2014-02-28 15:09:39 +0000]]></description>
+<Point>
+<coordinates>-84.328150,30.433481,18.371952</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.ab1]]></name>
+<description><![CDATA[MAC: ec:1a:59:a3:2a:b1<br>Channel: 6<br>MaxRssi: -97<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:26 +0000<br>LastSeen: 2014-02-28 15:10:26 +0000]]></description>
+<Point>
+<coordinates>-84.328125,30.432979,17.301697</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.189]]></name>
+<description><![CDATA[MAC: ec:1a:59:a7:91:89<br>Channel: 6<br>MaxRssi: -96<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:24 +0000<br>LastSeen: 2014-02-28 15:09:45 +0000]]></description>
+<Point>
+<coordinates>-84.328148,30.433416,19.222229</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[The Queen's Palace]]></name>
+<description><![CDATA[MAC: ec:1a:59:a8:43:9d<br>Channel: 1<br>MaxRssi: -89<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:56 +0000<br>LastSeen: 2014-02-28 15:11:14 +0000]]></description>
+<Point>
+<coordinates>-84.328121,30.432820,13.917931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Southern CumFort]]></name>
+<description><![CDATA[MAC: ec:1a:59:a8:7:b<br>Channel: 6<br>MaxRssi: -79<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:20 +0000<br>LastSeen: 2014-02-28 15:12:04 +0000]]></description>
+<Point>
+<coordinates>-84.328121,30.432820,13.917931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[True Religion]]></name>
+<description><![CDATA[MAC: ec:1a:59:ac:82:23<br>Channel: 6<br>MaxRssi: -88<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:44 +0000<br>LastSeen: 2014-02-28 15:11:28 +0000]]></description>
+<Point>
+<coordinates>-84.328157,30.432348,20.361498</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.92c.guests]]></name>
+<description><![CDATA[MAC: ec:1a:59:c8:39:2f<br>Channel: 1<br>MaxRssi: -100<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:00:39 +0000<br>LastSeen: 2014-02-28 15:00:39 +0000]]></description>
+<Point>
+<coordinates>-84.328383,30.436464,30.277977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HoneyDips]]></name>
+<description><![CDATA[MAC: ec:1a:59:d3:cd:54<br>Channel: 1<br>MaxRssi: -99<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:09:33 +0000<br>LastSeen: 2014-02-28 15:09:34 +0000]]></description>
+<Point>
+<coordinates>-84.328162,30.433545,21.058029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[belkin.d54.guests]]></name>
+<description><![CDATA[MAC: ec:1a:59:d3:cd:57<br>Channel: 1<br>MaxRssi: -95<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:10:25 +0000<br>LastSeen: 2014-02-28 15:10:25 +0000]]></description>
+<Point>
+<coordinates>-84.328126,30.432987,14.897350</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[ThomasCrib]]></name>
+<description><![CDATA[MAC: ee:43:f6:c8:a1:1c<br>Channel: 10<br>MaxRssi: -93<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:01:22 +0000<br>LastSeen: 2014-02-28 15:01:23 +0000]]></description>
+<Point>
+<coordinates>-84.328351,30.436402,37.468163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[HP-Print-4F-ENVY 4500 series]]></name>
+<description><![CDATA[MAC: f0:92:1c:d5:44:4f<br>Channel: 1<br>MaxRssi: -95<br>Security: None<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:11:08 +0000<br>LastSeen: 2014-02-28 15:11:31 +0000]]></description>
+<Point>
+<coordinates>-84.328145,30.432408,17.587967</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FCRC AirPort Wireless]]></name>
+<description><![CDATA[MAC: f8:1e:df:f9:4c:41<br>Channel: 6<br>MaxRssi: -77<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 16:42:57 +0000<br>LastSeen: 2014-02-28 16:51:49 +0000]]></description>
+<Point>
+<coordinates>-84.322326,30.423424,19.437893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Verizon DROID RAZR M 3732]]></name>
+<description><![CDATA[MAC: f8:f1:b6:bd:b:7d<br>Channel: 8<br>MaxRssi: -94<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:22:23 +0000<br>LastSeen: 2014-02-28 15:22:40 +0000]]></description>
+<Point>
+<coordinates>-84.328812,30.429414,6.222015</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[CenturyLink7085]]></name>
+<description><![CDATA[MAC: fe:f5:28:95:25:8<br>Channel: 11<br>MaxRssi: -87<br>Security: WPA2<br>Type: Access Point<br>FirstSeen: 2014-02-28 15:14:34 +0000<br>LastSeen: 2014-02-28 15:33:33 +0000]]></description>
+<Point>
+<coordinates>-84.329605,30.429913,9.980026</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

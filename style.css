@@ -5,8 +5,8 @@ body {
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Chivo', sans-serif;
 	font-weight: bolder;
-	background-color: #0F070C;
-	/*background-color: #EDE4D5;*/
+	/*background-color: #0F070C;*/
+	background-color: #EDE4D5;
 	color: white;
 	font-size: 36pt;
 }
@@ -15,11 +15,13 @@ body {
 	position: absolute;
 	text-align: center;
 	/*text-transform: uppercase;*/
-	color: black;
+	/*color: black;*/
+	color: #EDE4D5;
 	font-size: 72pt;
+	opacity: 0.75;
 }
 
-
+/*
 .network.None {
 	background-color: #3EEDDA;
 }
@@ -32,10 +34,24 @@ body {
 .network.WEP {
 	background-color: #A300CC;
 }
+*/
+
+.network.None {
+	background-color: #111;
+}
+.network.WPA {
+	background-color: #111;
+}
+.network.WPA2 {
+	background-color: #111;
+}
+.network.WEP {
+	background-color: #111;
+}
 
 .network_circle {
-	stroke: #555;
-	stroke-width: .5;
+	stroke: #AAA;
+	stroke-width: 1;
 	fill: none;
 	stroke-dasharray: 5,5;
 }
@@ -62,6 +78,7 @@ SVG {
 	height: 1000%;
 }
 .route  {
+	display: none;
 	stroke: #fff;
 	stroke-width: 2;
 	fill: none;

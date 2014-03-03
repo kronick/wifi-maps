@@ -1,10 +1,12 @@
+var layout = "map"; // "timeline" or "map"
+
 var physics;
 var width, height;
 
 $(document).ready(function() {
 
-  width = $(window).width() * 4;
-  height = $(window).height() * 4;
+  width = $(window).width() * (layout == "map" ? 2 : 1);
+  height = $(window).height() * (layout == "map" ? 4 : 1);
   $("#container").width(width);
   $("#container").height(height);
 
@@ -17,7 +19,8 @@ $(document).ready(function() {
   $("#svg_container > SVG").height(height);
   //$("#svg_container").hide();
 
-  var log = $.parseXML($("#logfile3").html());
+  //var log = $.parseXML($("#fiber_loop_2").html());
+  var log = $.parseXML($("#logfile2").html());
   var networkTags = $(log).find("Placemark");
 
   var networks = [];
@@ -72,54 +75,66 @@ $(document).ready(function() {
   	//return a.seen_last - b.seen_last;										// Last seen
   });
 
+  var start_time = networks[0].seen_first;
+  var end_time = networks[networks.length-1].seen_first;
+  var timespan = end_time - start_time;
+
   // Create a DIV for each network label
   // -----------------------------------
-  var ignored_ssids = ["City of Minneapolis Public WiFi", "USI Wireless", "(null)"];
+  var ignored_ssids = [];
+  //var ignored_ssids = ["City of Minneapolis Public WiFi", "USI Wireless", "(null)"];
   var networkElements = [];
   var max_font_size = 600 / networks.length * 25;
   $.each(networks, function(idx) {
   	if($.inArray(this.SSID, ignored_ssids) >= 0 || /usiw_secure(.*)/.test(this.SSID)) return;
   	var el = $("<div class='network'>" + this.SSID + "</div>");
+    $("#container").append(el);
 
   	//el.css("font-size", Math.map(this.strength, strength_min, strength_max, 1,max_font_size) + "em");
-  	el.css("font-size", Math.map(this.strength, strength_min, strength_max, 1, 100) + "%");
+  	el.css("font-size", Math.map(this.strength, strength_min, strength_max, 5, 100) + "%");
   	el.addClass(this.security);
-  	//el.css("background", "rgba(0,0,0," + Math.map(this.strength, strength_min, strength_max, 0,1) + ")");
-  	//el.css("background", "rgba(0,0,0,.5)");
   	el.css("z-index", Math.floor(Math.map(this.strength, strength_min, strength_max, 0,10)));
   	
-
-  	//var el = $("<div class='network'>o</div>");
   	
-  	$("#container").append(el);
+    if(layout == "map") {
+    	var t = Math.map(this.coordinates[0], lats_min, lats_max, height * .8, height * .2);
+    	var l = Math.map(this.coordinates[1], longs_min, longs_max, width * .2, width * .8);
+      el.css("width", el.width()+1);  // Without this, each div will automatically word-wrap if it's positioned off screen
+    	el.offset({
+    		top: t - el.height() / 2.0,
+    		left: l - el.width() / 2.0
+    	});
 
-  	var t = Math.map(this.coordinates[0], lats_min, lats_max, height * .8, height * .2);
-  	var l = Math.map(this.coordinates[1], longs_min, longs_max, width * .2, width * .8);
-  	el.offset({
-  		top: t - el.height() / 2.0,
-  		left: l - el.width() / 2.0
-  	});
+    	// Make an array of points for SVG polyline
+    	path.push([l, t]);
 
-  	// Make an array of points for SVG polyline
-  	path.push([l, t]);
-  	//l -= el.width() / 2;
-  	//t -= el.height() / 2;
-
-  	var circle = $(svg.circle(l, t, Math.map(this.strength, strength_min, strength_max, 1,max_font_size*5)));
-  	circle.addClass('network_circle');
-  	circle.addClass(this.security);
+    	var circle = $(svg.circle(l, t, Math.map(this.strength, strength_min, strength_max, 1,max_font_size*5)));
+    	circle.addClass('network_circle');
+    	circle.addClass(this.security);
 
 
-  	var connector = $(svg.line(l, t, l, t));
-  	connector.addClass('network_circle');
-  	connector.addClass(this.security);
-  	el.connector = connector;
-  	connector.circle = circle;
+    	var connector = $(svg.line(l, t, l, t));
+    	connector.addClass('network_circle');
+    	connector.addClass(this.security);
+    	el.connector = connector;
+    	connector.circle = circle;
 
-  	networkElements.push(el);
+    	networkElements.push(el);
+    }
+    else {
+      //networkElements.push(el);
+
+      el.css("position", "absolute");
+      el.offset({top: height - Math.randomRange(0,height), left: 0});
+      el.css("width", el.width()+1);
+      el.css("opacity", 0);
+      el.transition({rotate: -45, x: el.width()/2, left: Math.map(this.seen_first, start_time, end_time, 0, width*4), opacity: 1, delay: idx * 10}, 100);
+
+    }
   });
 
-  setupPhysics(networkElements);
+  if(layout == "map")
+    setupPhysics(networkElements);
 
   // Draw SVG path
   var pathElement = $(svg.polyline(getSmoothedPolyline(path, .1)));	// second parameter is curve tightness
@@ -140,6 +155,7 @@ function setupPhysics(elements) {
     physics = new VerletPhysics2D();
     physics.setDrag(0.05);
   	physics.setWorldBounds(new Rect(0, 0, width, height));
+    //physics.addBehavior(new GravityBehavior(new Vec2D(0, 0.15)));
 
   	// Create particles for each DIV with springs connecting to original location
   	$.each(elements, function(idx, el) {
@@ -149,21 +165,45 @@ function setupPhysics(elements) {
   		var elParticle = new VerletParticle2D(new Vec2D(center[0] + Math.randomRange(-.5,.5), center[1] + Math.randomRange(-.5,.5)));
   		elParticle.el = el;
   		elParticle.base = baseParticle;
-  		elParticle.setWeight(1/parseInt(el.css("font-size")));
+  		//elParticle.setWeight(1/Math.sqrt(parseInt(el.css("font-size"))));
   		physics.addParticle(baseParticle);
   		physics.addParticle(elParticle);
 
+      /*
+      var TLParticle = new VerletParticle2D(new Vec2D(center[0]-el.width()/2, center[1] - el.height()/2));
+      var TRParticle = new VerletParticle2D(new Vec2D(center[0]+el.width()/2, center[1] - el.height()/2));
+      var BLParticle = new VerletParticle2D(new Vec2D(center[0]-el.width()/2, center[1] + el.height()/2));
+      var BRParticle = new VerletParticle2D(new Vec2D(center[0]+el.width()/2, center[1] + el.height()/2));
+      var spring1 = new VerletSpring2D(TLParticle, TRParticle, el.width(), 1000);
+      var spring2 = new VerletSpring2D(TRParticle, BRParticle, el.height(), 1000);
+      var spring3 = new VerletSpring2D(BRParticle, BLParticle, el.width(), 1000);
+      var spring4 = new VerletSpring2D(BLParticle, TLParticle, el.height(), 1000);
+      
+      var spring5 = new VerletSpring2D(TLParticle, elParticle, el.height(), 1000);
+      var spring6 = new VerletSpring2D(BRParticle, elParticle, el.height(), 1000);
+      var spring7 = new VerletSpring2D(BRParticle, elParticle, el.height(), 1000);
+      var spring8 = new VerletSpring2D(BLParticle, elParticle, el.height(), 1000);
+      */
+
   		// Hold close to base with a spring
-  		var spring = new VerletSpring2D(baseParticle, elParticle, 0, 10);
+  		var spring = new VerletSpring2D(baseParticle, elParticle, el.width(), 100);
   		// And repell each other
-  		physics.addBehavior(new AttractionBehavior(elParticle, 20, -2, 0.01));
+  		//physics.addBehavior(new AttractionBehavior(elParticle, el.width(), -Math.sqrt(el.width())/100, 0.01));
+      physics.addBehavior(new AttractionBehavior(elParticle, el.width()/4, -1, 0.01));
+
+      /*
+      physics.addBehavior(new AttractionBehavior(TLParticle, el.height(), -.1, 0.01));
+      physics.addBehavior(new AttractionBehavior(TRParticle, el.height(), -.1, 0.01));
+      physics.addBehavior(new AttractionBehavior(BLParticle, el.height(), -.1, 0.01));
+      physics.addBehavior(new AttractionBehavior(BRParticle, el.height(), -.1, 0.01));
+      */
 
   		//console.log(center);
   	});
   	
   	physics.cycles = 0;
-  	//physics.updateInterval = window.setInterval(updatePhysics, 1000.0/10.0);
-  	updatePhysics();
+  	physics.updateInterval = window.setInterval(updatePhysics, 100.0/10.0);
+  	//updatePhysics();
 }
 
 function updatePhysics(elements) {
@@ -175,10 +215,10 @@ function updatePhysics(elements) {
          Rect = toxi.geom.Rect;		
 
     //console.log("aSDF");
-    for(var i=0; i<100; i++) {
+    for(var i=0; i<1; i++) {
   		physics.update();
     	physics.cycles++;
-    	if(physics.cycles > 100) window.clearInterval(physics.updateInterval);
+    	if(physics.cycles > 1000) window.clearInterval(physics.updateInterval);
     }
     var x_axis = new Vec2D(0,1);
     $.each(physics.particles, function(idx, p){ 
@@ -196,18 +236,18 @@ function updatePhysics(elements) {
     		var mag = offset.magnitude();
     		var angle = Math.atan2(offset.y, offset.x) * 180 / Math.PI;
 
-    		angle = Math.round(angle/45.0) * 45;	// Quantize angle
-
     		var dist;
     		if((angle < 90 || angle < -270) && (angle > -90 || angle > 270)) {
-    			dist = p.el.width() / 2 + mag;
-    			p.el.transition({rotate: angle, x:dist}, 1000);
+    			//dist = p.el.width() / 2 + mag;
+          dist = mag;
+    			p.el.transition({rotate: angle, x:dist}, 0);
 
     		}
     		else {
     			angle += 180;
-    			dist = -mag - p.el.width() / 2;
-    			p.el.transition({rotate: angle, x:dist}, 1000);	
+    			//dist = -mag - p.el.width() / 2;
+          dist = -mag;
+    			p.el.transition({rotate: angle, x:dist}, 0);	
     		}
     		
     		// Update connector
@@ -220,7 +260,8 @@ function updatePhysics(elements) {
     		c.attr("y1", p.base.y);
     		c.attr("x2", Math.cos(angle * Math.PI / 180.0) * dist + p.base.x);
     		c.attr("y2", Math.sin(angle * Math.PI / 180.0) * dist + p.base.y);
-
+        
+        angle = Math.round(angle/45.0) * 45;  // Quantize angle
     	}
     });
 }
