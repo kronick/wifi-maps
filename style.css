@@ -2,11 +2,12 @@
 @import "jquery-svg/jquery.svg.css";
 
 body {
+	font-family: sans-serif;
 	/*font-family: 'Open Sans', sans-serif;*/
-	font-family: 'Chivo', sans-serif;
+	/*font-family: 'Chivo', sans-serif;*/
 	font-weight: bolder;
-	/*background-color: #0F070C;*/
-	background-color: #EDE4D5;
+	background-color: #0F070C;
+	/*background-color: #EDE4D5;*/
 	color: white;
 	font-size: 36pt;
 }
@@ -15,13 +16,15 @@ body {
 	position: absolute;
 	text-align: center;
 	/*text-transform: uppercase;*/
-	/*color: black;*/
-	color: #EDE4D5;
+	color: black;
+	/*color: #EDE4D5;
+	background-color: #BEB6AA;
+	*/
 	font-size: 72pt;
-	opacity: 0.75;
+	/*opacity: 0.75;*/
 }
 
-/*
+
 .network.None {
 	background-color: #3EEDDA;
 }
@@ -34,21 +37,21 @@ body {
 .network.WEP {
 	background-color: #A300CC;
 }
-*/
 
+/*
 .network.None {
-	background-color: #111;
+	background-color: #BEB6AA;
 }
 .network.WPA {
-	background-color: #111;
+	background-color: #BEB6AA;
 }
 .network.WPA2 {
-	background-color: #111;
+	background-color: #BEB6AA;
 }
 .network.WEP {
-	background-color: #111;
+	background-color: #BEB6AA;
 }
-
+*/
 .network_circle {
 	stroke: #AAA;
 	stroke-width: 1;
