@@ -2,12 +2,13 @@
 @import "jquery-svg/jquery.svg.css";
 
 body {
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
+	font-family: "Bitstream Vera Sans Mono";
 	/*font-family: 'Open Sans', sans-serif;*/
 	/*font-family: 'Chivo', sans-serif;*/
 	font-weight: bolder;
-	background-color: #0F070C;
-	/*background-color: #EDE4D5;*/
+	/*background-color: #0F070C;*/
+	background-color: #EDE4D5;
 	color: white;
 	font-size: 36pt;
 }
@@ -16,14 +17,20 @@ body {
 	position: absolute;
 	text-align: center;
 	/*text-transform: uppercase;*/
-	color: black;
-	/*color: #EDE4D5;
+	/*color: black;*/
+	color: #EDE4D5;
 	background-color: #BEB6AA;
-	*/
+	
 	font-size: 72pt;
 	/*opacity: 0.75;*/
 }
 
+.network text {
+	fill: #EDE4D5;
+}
+.network rect {
+	fill: #D9D0C3;
+}
 
 .network.None {
 	background-color: #3EEDDA;
@@ -37,7 +44,34 @@ body {
 .network.WEP {
 	background-color: #A300CC;
 }
-
+/*
+.network.None rect {
+	fill: #3EEDDA;
+}
+.network.WPA rect {
+	fill: #EDBE3E;
+}
+.network.WPA2 rect {
+	fill: #ED3EA1;
+}
+.network.WEP rect {
+	fill: #A300CC;
+}
+*/
+/*
+.network.None rect {
+	fill: #BEB6AA;
+}
+.network.WPA rect {
+	fill: #BEB6AA;
+}
+.network.WPA2 rect {
+	fill: #BEB6AA;
+}
+.network.WEP rect {
+	fill: #BEB6AA;
+}
+*/
 /*
 .network.None {
 	background-color: #BEB6AA;

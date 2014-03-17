@@ -5,10 +5,10 @@ var width, height;
 
 var filter_rect = true;
 
-var MIN_LONG = 30.434841;
-var MAX_LONG = 30.445866;
-var MIN_LAT = -84.286213;
-var MAX_LAT = -84.285031;
+var MIN_LAT = 30.434841;
+var MAX_LAT = 30.445866;
+var MIN_LONG = -84.286213;
+var MAX_LONG = -84.285031;
 
 
 /*
@@ -22,8 +22,8 @@ var MAX_LAT = -84.327320;
 
 $(document).ready(function() {
 
-  width = $(window).width() * (layout == "map" ? 8 : 1);
-  height = $(window).height() * (layout == "map" ? 3 : 1);
+  width = $(window).width() * (layout == "map" ? 2 : 1);  // 8 for horizontal
+  height = $(window).height() * (layout == "map" ? 16 : 1); // 3 for vertical
   $("#container").width(width);
   $("#container").height(height);
 
@@ -52,7 +52,7 @@ $(document).ready(function() {
   	var strength = /MaxRssi: (.*?)<br>/.exec(description)[1];
   	var channel = /Channel: (.*?)<br>/.exec(description)[1];
   	var coords = /(.*?),(.*?),(.*)/.exec($this.find("coordinates").text());
-  	var coordinates = [coords[1], coords[2], coords[3]];
+  	var coordinates = [coords[2], coords[1], coords[3]];
   	var security = /Security: (.*?)<br>/.exec(description)[1];
   	var type = /Type: (.*?)<br>/.exec(description)[1];
   	var seen_first = new Date(/FirstSeen: (.*?)<br>/.exec(description)[1]).getTime();
@@ -91,12 +91,19 @@ $(document).ready(function() {
 
   var path = [];
 
+/*
   // SORT THE NETWORKS by time
   networks.sort(function(a,b) {
   																		 	// Sort by...
   	//return (((a.seen_first+a.seen_last)) - ((b.seen_first+b.seen_last)));	// Average time
   	return a.seen_first - b.seen_first;									// First seen
   	//return a.seen_last - b.seen_last;										// Last seen
+  });
+*/
+
+  // SORT THE NETWORKS by strength
+  networks.sort(function(a,b) {
+    return a.strength - b.strength;
   });
 
   var start_time = networks[0].seen_first;
@@ -107,42 +114,56 @@ $(document).ready(function() {
   // -----------------------------------
   var networkElements = [];
   //var max_font_size = 600 / networks.length * 25;
-  var max_font_size = 50;
+  var circles_group = svg.group();
+  var max_font_size = 96;
   $.each(networks, function(idx) {
-    
-  	var el = $("<div class='network'>" + this.SSID + "</div>");
-    $("#container").append(el);
-
-  	//el.css("font-size", Math.map(this.strength, strength_min, strength_max, 1,max_font_size) + "em");
-  	el.css("font-size", Math.map(this.strength, strength_min, strength_max, 5, 100) + "%");
-  	el.addClass(this.security);
-  	el.css("z-index", Math.floor(Math.map(this.strength, strength_min, strength_max, 0,10)));
-  	
-  	
     if(layout == "map") {
-    	var t = Math.map(this.coordinates[0], lats_min, lats_max, height * .7, height * .3);
-    	var l = Math.map(this.coordinates[1], longs_min, longs_max, width * .3, width * .7);
-      el.css("width", el.width()+1);  // Without this, each div will automatically word-wrap if it's positioned off screen
-    	el.offset({
-    		top: t - el.height() / 2.0,
-    		left: l - el.width() / 2.0
-    	});
+      var el = [];
+      var x = Math.map(this.coordinates[1], longs_min, longs_max, width * .3, width * .7);
+      var y = Math.map(this.coordinates[0], lats_min, lats_max, height * .7, height * .3);
+      
+      var translate_group = svg.group({transform: 'translate(' + x + ',' + y + ')'});
+      var rotate_group = svg.group(translate_group, {transform: 'rotate(' + Math.randomRange(-180,180) +')'});
+      //var distance_group = svg.group(rotate_group, {transform: 'translate(' + Math.randomRange(0,100) + ',0)'});
+      var distance_group = svg.group(rotate_group);
+      $(translate_group).addClass("network " + this.security);
 
-    	// Make an array of points for SVG polyline
-    	path.push([l, t]);
+      var font_size = Math.map(this.strength, strength_min, strength_max, 5, max_font_size);
+      var label = svg.text(distance_group, font_size/8,0, this.SSID);
+      $(label).css("font-size", font_size + "px");
+      var label_w = $(label).width();
+      var label_h = $(label).height();
+      
+      var rect = svg.rect(distance_group, 0,-label_h/2, label_w + font_size/4, label_h);
+      svg.remove(label);
+      //label = svg.add(rotate_group, label);
+      label = svg.text(distance_group, font_size/8,0, this.SSID);
+      $(label).css("font-size", font_size + "px");
+      $(label).attr("y", label_h*.30);
+      //$(rect).addClass("network " + this.security);
 
-    	var circle = $(svg.circle(l, t, Math.map(this.strength, strength_min, strength_max, 1,max_font_size*5)));
+    	
+    	var circle = $(svg.circle(circles_group, x, y, Math.map(this.strength, strength_min, strength_max, 1,max_font_size*1.5)));
     	circle.addClass('network_circle');
     	circle.addClass(this.security);
 
 
-    	var connector = $(svg.line(l, t, l, t));
+    	var connector = $(svg.line(circles_group, x, y, x, y));
     	connector.addClass('network_circle');
     	connector.addClass(this.security);
     	el.connector = connector;
     	connector.circle = circle;
 
+      el.translate_group = $(translate_group);
+      el.rotate_group = $(rotate_group);
+      el.distance_group = $(distance_group);
+      el.label = $(label);
+      el.rect = $(rect);
+      el.x = x;
+      el.y = y;
+
     	networkElements.push(el);
+      
     }
     else {
       //networkElements.push(el);
@@ -160,8 +181,8 @@ $(document).ready(function() {
     setupPhysics(networkElements);
 
   // Draw SVG path
-  var pathElement = $(svg.polyline(getSmoothedPolyline(path, .1)));	// second parameter is curve tightness
-  pathElement.addClass('route');
+  //var pathElement = $(svg.polyline(getSmoothedPolyline(path, .1)));	// second parameter is curve tightness
+  //pathElement.addClass('route');
 
 });
 
@@ -182,47 +203,27 @@ function setupPhysics(elements) {
 
   	// Create particles for each DIV with springs connecting to original location
   	$.each(elements, function(idx, el) {
-  		var center = [el.offset().left + el.width()/2, el.offset().top + el.height()/2];
+  		var center = [el.x, el.y];
+      var el_width = el.rect.attr("width");
+      var el_height = el.rect.attr("height");
   		var baseParticle = new VerletParticle2D(new Vec2D(center[0], center[1]));
   		baseParticle.lock();
-  		var elParticle = new VerletParticle2D(new Vec2D(center[0] + Math.randomRange(-el.height(),el.height()), center[1] + Math.randomRange(-el.height(),el.height())));
+  		//var elParticle = new VerletParticle2D(new Vec2D(center[0] + Math.randomRange(-el_height,el_height), center[1] + Math.randomRange(-el_width,el_width)));
+      var elParticle = new VerletParticle2D(new Vec2D(center[0] + Math.randomRange(-1,1), center[1] + Math.randomRange(-1,1)));
   		elParticle.el = el;
   		elParticle.base = baseParticle;
   		//elParticle.setWeight(1/Math.sqrt(parseInt(el.css("font-size"))));
   		physics.addParticle(baseParticle);
   		physics.addParticle(elParticle);
 
-      /*
-      var TLParticle = new VerletParticle2D(new Vec2D(center[0]-el.width()/2, center[1] - el.height()/2));
-      var TRParticle = new VerletParticle2D(new Vec2D(center[0]+el.width()/2, center[1] - el.height()/2));
-      var BLParticle = new VerletParticle2D(new Vec2D(center[0]-el.width()/2, center[1] + el.height()/2));
-      var BRParticle = new VerletParticle2D(new Vec2D(center[0]+el.width()/2, center[1] + el.height()/2));
-      var spring1 = new VerletSpring2D(TLParticle, TRParticle, el.width(), 1000);
-      var spring2 = new VerletSpring2D(TRParticle, BRParticle, el.height(), 1000);
-      var spring3 = new VerletSpring2D(BRParticle, BLParticle, el.width(), 1000);
-      var spring4 = new VerletSpring2D(BLParticle, TLParticle, el.height(), 1000);
-      
-      var spring5 = new VerletSpring2D(TLParticle, elParticle, el.height(), 1000);
-      var spring6 = new VerletSpring2D(BRParticle, elParticle, el.height(), 1000);
-      var spring7 = new VerletSpring2D(BRParticle, elParticle, el.height(), 1000);
-      var spring8 = new VerletSpring2D(BLParticle, elParticle, el.height(), 1000);
-      */
 
   		// Hold close to base with a spring
-  		var spring = new VerletSpring2D(baseParticle, elParticle, el.width(), .001);
+  		var spring = new VerletSpring2D(baseParticle, elParticle, el_width/2, .001);
       physics.addSpring(spring);
   		// And repell each other
-  		//physics.addBehavior(new AttractionBehavior(elParticle, el.width(), -Math.sqrt(el.width())/100, 0.01));
-      physics.addBehavior(new AttractionBehavior(elParticle, el.width(), -20, 0.01));
+      physics.addBehavior(new AttractionBehavior(elParticle, el_width, -20, 0.01));
+      physics.addBehavior(new AttractionBehavior(baseParticle, el_width, -20, 0.01));
 
-      /*
-      physics.addBehavior(new AttractionBehavior(TLParticle, el.height(), -.1, 0.01));
-      physics.addBehavior(new AttractionBehavior(TRParticle, el.height(), -.1, 0.01));
-      physics.addBehavior(new AttractionBehavior(BLParticle, el.height(), -.1, 0.01));
-      physics.addBehavior(new AttractionBehavior(BRParticle, el.height(), -.1, 0.01));
-      */
-
-  		//console.log(center);
   	});
   	
   	physics.cycles = 0;
@@ -240,20 +241,16 @@ function updatePhysics(elements) {
 
     //console.log("aSDF");
     var stopPhysics = false;
-    for(var i=0; i<1; i++) {
+    for(var i=0; i<10; i++) {
   		physics.update();
     	physics.cycles++;
-    	if(physics.cycles > 50) stopPhysics = true;
+    	if(physics.cycles > 1000) stopPhysics = true;
     }
     var x_axis = new Vec2D(0,1);
     $.each(physics.particles, function(idx, p){ 
     	if(p.el) {
-    		// STAY LEVEL
-    		var offset = p.sub(p.base);
-    		//p.el.transition({left: p.x - p.el.width()/2, top: p.y - p.el.height()/2}, 1000);
-        p.el.css({left: p.x - p.el.width()/2, top: p.y - p.el.height()/2});
-    		////p.el.offset({left: p.x - p.el.width()/2, top: p.y - p.el.height()/2});
-
+    		
+        p.el.translate_group.attr("transform", 'translate(' + p.x + ',' + p.y + ')');
 
     		// ROTATE AND RADIATE
     		// Calculate angle to base particle
@@ -270,17 +267,19 @@ function updatePhysics(elements) {
         if((angle < 90 || angle < -270) && (angle > -90 || angle > 270)) {
           //dist = p.el.width() / 2 + mag;
           dist = mag;
-          p.el.transition({rotate: angle_quant}, 0);
+          ///p.el.transition({rotate: angle_quant}, 0);
+          p.el.rotate_group.attr("transform", 'rotate(' + angle_quant + ')');
+          p.el.distance_group.attr("transform", 'translate(0,0)');
           //p.el.transition({rotate: angle_quant, x: dist}, 0);
-          
-
         }
         else {
           angle += 180;
           angle_quant += 180;
           //dist = -mag - p.el.width() / 2;
           dist = -mag;
-          p.el.transition({rotate: angle_quant}, 0);  
+          //p.el.transition({rotate: angle_quant}, 0);  
+           p.el.rotate_group.attr("transform", 'rotate(' + angle_quant + ')');
+           p.el.distance_group.attr("transform", 'translate(' + (-p.el.rect.attr("width")) + ',' + 0 + ')');
           //p.el.transition({rotate: angle_quant, x: -dist}, 0);
         }
 
@@ -299,7 +298,15 @@ function updatePhysics(elements) {
         
     	}
     });
-    if(!stopPhysics) window.setTimeout(updatePhysics, 1000.0/24);
+    //if(!stopPhysics) window.setTimeout(updatePhysics, 1000.0/24);
+    if(!stopPhysics) window.setTimeout(updatePhysics, 1);
+    else {
+      // Output SVG
+      var svg = $("#svg_container").svg('get');
+      var source = $("<div />");
+      source.text(svg.toSVG());
+      $("#container").append(source);
+    }
 }
 
 function getSmoothedPolyline(vertices, tightness) {
